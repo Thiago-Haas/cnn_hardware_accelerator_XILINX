@@ -1,0 +1,1333 @@
+# do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 types_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package types_pkg
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 banco_de_registradores.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity banco_de_registradores
+# -- Compiling architecture arch of banco_de_registradores
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 add1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add1
+# -- Compiling architecture arch of add1
+# -- Compiling entity BIT_ADDER1
+# -- Compiling architecture BHV of BIT_ADDER1
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 add32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add32
+# -- Compiling architecture arch32 of add32
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 add32_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add32_tb
+# -- Compiling architecture arch32 of add32_tb
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 arvore_comparadores.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity arvore_comparadores
+# -- Compiling architecture arch of arvore_comparadores
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 arvore_soma_conv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity arvore_soma_conv
+# -- Compiling architecture arch of arvore_soma_conv
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 conv1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package types_pkg
+# -- Compiling entity conv1
+# -- Compiling architecture arch of conv1
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 conv1_bias.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity conv1_bias
+# -- Compiling architecture SYN of conv1_bias
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 conv1_crt.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity conv1_crt
+# -- Compiling architecture arch of conv1_crt
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 conv1_op.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity conv1_op
+# -- Compiling architecture arch of conv1_op
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 conv1_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package types_pkg
+# -- Compiling entity conv1_tb
+# -- Compiling architecture arch of conv1_tb
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 conv1_weights.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity conv1_weights
+# -- Compiling architecture SYN of conv1_weights
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity counter
+# -- Compiling architecture arch of counter
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 demux_1x4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity demux_1x4
+# -- Compiling architecture arch of demux_1x4
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 fc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity fc
+# -- Compiling architecture arch of fc
+# End time: 18:33:21 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:21 on Apr 15,2025
+# vcom -reportprogress 300 -2008 fc_crt.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity fc_crt
+# -- Compiling architecture arch of fc_crt
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 fc_op.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity fc_op
+# -- Compiling architecture arch of fc_op
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 generic_demultiplexer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity generic_demultiplexer
+# -- Compiling architecture arch of generic_demultiplexer
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 generic_multiplexer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity generic_multiplexer
+# -- Compiling architecture arch of generic_multiplexer
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 generic_ram.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity generic_ram
+# -- Compiling architecture SYN of generic_ram
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 image_chanel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity image_chanel
+# -- Compiling architecture SYN of image_chanel
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 io_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity io_buffer
+# -- Compiling architecture arch of io_buffer
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 max_pooling.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity max_pooling
+# -- Compiling architecture arch of max_pooling
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 multiplicador_conv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity multiplicador_conv
+# -- Compiling architecture arch of multiplicador_conv
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 neuronio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity neuronio
+# -- Compiling architecture arch of neuronio
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 nucleo_convolucional.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity nucleo_convolucional
+# -- Compiling architecture arch of nucleo_convolucional
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 nucleo_convolucional_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity nucleo_convolucional_tb
+# -- Compiling architecture arch of nucleo_convolucional_tb
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 one_hot_encoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity one_hot_encoder
+# -- Compiling architecture arch of one_hot_encoder
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 pool1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package types_pkg
+# -- Compiling entity pool1
+# -- Compiling architecture arch of pool1
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 pool1_crt.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package types_pkg
+# -- Compiling entity pool1_crt
+# -- Compiling architecture arch of pool1_crt
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 pool1_op.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package types_pkg
+# -- Compiling entity pool1_op
+# -- Compiling architecture arch of pool1_op
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 rebuff1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package types_pkg
+# -- Compiling entity rebuff1
+# -- Compiling architecture arch of rebuff1
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 rebuffer_crt.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rebuffer_crt
+# -- Compiling architecture arch of rebuffer_crt
+# -- Compiling entity mux_4x1
+# -- Compiling architecture arch of mux_4x1
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 rebuffer_op.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity rebuffer_op
+# -- Compiling architecture arch of rebuffer_op
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 rebuffer_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity rebuffer_tb
+# -- Compiling architecture arch of rebuffer_tb
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 registrador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registrador
+# -- Compiling architecture arch of registrador
+# End time: 18:33:22 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:22 on Apr 15,2025
+# vcom -reportprogress 300 -2008 relu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity relu
+# -- Compiling architecture arch of relu
+# End time: 18:33:23 on Apr 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:23 on Apr 15,2025
+# vcom -reportprogress 300 -2008 cnn_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity cnn_top
+# -- Compiling architecture arch of cnn_top
+# End time: 18:33:23 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:23 on Apr 15,2025
+# vcom -reportprogress 300 -2008 cnn_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cnn_top_tb
+# -- Compiling architecture arch of cnn_top_tb
+# End time: 18:33:23 on Apr 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim cnn_top_tb 
+# Start time: 18:33:23 on Apr 15,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cnn_top_tb(arch)
+# Loading work.types_pkg
+# Loading work.cnn_top(arch)
+# Loading altera_mf.altera_mf_components
+# Loading work.image_chanel(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.rebuff1(arch)
+# Loading work.rebuffer_crt(arch)
+# Loading work.mux_4x1(arch)
+# Loading work.rebuffer_op(arch)
+# Loading work.conv1(arch)
+# Loading work.conv1_weights(syn)
+# Loading work.conv1_bias(syn)
+# Loading work.conv1_crt(arch)
+# Loading work.counter(arch)
+# Loading work.conv1_op(arch)
+# Loading work.io_buffer(arch)
+# Loading work.generic_ram(syn)
+# Loading work.nucleo_convolucional(arch)
+# Loading work.demux_1x4(arch)
+# Loading work.multiplicador_conv(arch)
+# Loading work.arvore_soma_conv(arch)
+# Loading work.registrador(arch)
+# Loading work.generic_multiplexer(arch)
+# Loading work.add32(arch32)
+# Loading work.add1(arch)
+# Loading work.generic_demultiplexer(arch)
+# Loading work.one_hot_encoder(arch)
+# Loading work.pool1(arch)
+# Loading work.pool1_crt(arch)
+# Loading work.pool1_op(arch)
+# Loading work.max_pooling(arch)
+# Loading work.arvore_comparadores(arch)
+# Loading work.fc(arch)
+# Loading work.fc_crt(arch)
+# Loading work.fc_op(arch)
+# Loading work.neuronio(arch)
+# ** Warning: Design size of 113141 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** UI-Msg: (vish-4014) No objects found matching '/cnn_top_tb/u_DUT/i_ADDR'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/cnn_top_tb/u_DUT/w_REBUFF2_READ_ENA'.
+# Executing ONERROR command at macro ./wave.do line 21
+# ** UI-Msg: (vish-4014) No objects found matching '/cnn_top_tb/u_DUT/w_REBUFF4_READ_ENA'.
+# Executing ONERROR command at macro ./wave.do line 39
+# ** UI-Msg: (vish-4014) No objects found matching '/cnn_top_tb/u_DUT/w_REBUFF6_READ_ENA'.
+# Executing ONERROR command at macro ./wave.do line 57
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_FC/u_OPERACIONAL/u_OHE_BIAS
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/u_OHE_PES
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/MUXX
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(31)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(31)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(30)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(30)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(29)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(29)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(28)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(28)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(27)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(27)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(26)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(26)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(25)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(25)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(24)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(24)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(23)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(23)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(22)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(22)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(21)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(21)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(20)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(20)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(19)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(19)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(18)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(18)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(17)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(17)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(16)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(16)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(15)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(15)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(14)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(14)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(13)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(13)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(12)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(12)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(11)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(11)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(10)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(10)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(9)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(9)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(8)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(8)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(7)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(7)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(6)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(6)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(5)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(5)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(4)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(4)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(3)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(3)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(2)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(2)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(1)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(1)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(0)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL3/u_OPERACIONAL/GEN_CHANNELS(0)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/u_OHE_PES
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/MUXX
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(15)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(15)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(14)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(14)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(13)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(13)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(12)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(12)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(11)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(11)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(10)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(10)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(9)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(9)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(8)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(8)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(7)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(7)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(6)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(6)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(5)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(5)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(4)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(4)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(3)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(3)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(2)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(2)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(1)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(1)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(0)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL2/u_OPERACIONAL/GEN_CHANNELS(0)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/u_OHE_PES
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/MUXX
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(5)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(5)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(4)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(4)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(3)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(3)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(2)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(2)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(1)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(1)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(0)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_POOL1/u_OPERACIONAL/GEN_CHANNELS(0)/u_MAX_POOL/u_ARVORE_COMP
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL/u_OHE_PES
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL/u_OHE_PES
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL/MUXX
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cnn_top_tb/u_DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(63)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(62)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(61)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(60)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(59)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(58)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(57)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(56)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(55)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(54)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(53)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(52)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(51)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(50)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(49)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(48)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(47)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(46)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(45)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(44)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(43)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(42)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(41)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(40)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(39)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(38)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(37)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(36)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(35)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(34)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(33)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(32)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(31)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(30)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(29)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(28)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(27)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(26)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(25)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(24)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(23)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(22)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(21)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(20)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(19)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(18)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(17)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(16)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(15)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(14)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(13)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(12)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(11)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(10)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(9)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(8)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(7)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(6)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(5)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(4)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(3)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(2)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(1)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(0)/OUT_BUFFER/GEN_REG/GEN_BLOCK(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(8)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(9)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(10)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(11)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(13)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(14)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(15)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(17)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(18)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(24)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(25)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(28)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(29)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(30)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(31)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(36)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(38)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(39)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(40)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(44)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(47)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(50)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(52)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(53)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(54)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(56)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(58)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(59)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(61)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(63)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(19)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(20)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(23)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(32)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(33)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(34)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(41)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(42)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(43)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(45)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(46)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(49)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(62)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(16)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(12)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(7)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(21)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(22)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(26)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(27)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(35)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(37)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(48)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(51)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(55)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(57)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL/GEN_FILTER_OUT(60)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(11)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(26)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(27)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(30)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(7)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(8)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(9)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(10)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(12)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(13)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(14)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(15)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(16)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(17)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(18)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(19)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(20)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(21)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(22)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(23)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(24)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(25)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(28)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(29)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT(31)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(7)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(9)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(10)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(14)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(15)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(8)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(11)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(12)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL/GEN_FILTER_OUT(13)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL/GEN_FILTER_OUT(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL/GEN_FILTER_OUT(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL/GEN_FILTER_OUT(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL/GEN_FILTER_OUT(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL/GEN_FILTER_OUT(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL/GEN_FILTER_OUT(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cnn_top_tb/u_DUT/u_CONV1/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cnn_top_tb/u_DUT/u_CONV2/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cnn_top_tb/u_DUT/u_CONV3/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cnn_top_tb/u_DUT/u_CONV4/u_OPERACIONAL
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Region: /cnn_top_tb/u_DUT/u_FC/u_OPERACIONAL/GEN_UNITS(0)
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 18:38:23 on Apr 15,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 391
