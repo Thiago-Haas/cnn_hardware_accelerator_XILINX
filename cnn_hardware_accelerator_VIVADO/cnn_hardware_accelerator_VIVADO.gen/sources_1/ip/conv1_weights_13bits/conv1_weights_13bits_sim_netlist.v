@@ -2,24 +2,24 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-// Date        : Thu Apr 17 13:16:00 2025
+// Date        : Thu Apr 17 14:50:46 2025
 // Host        : leds-inspiron3020 running 64-bit Ubuntu 24.04.2 LTS
-// Command     : write_verilog -force -mode funcsim -rename_top conv1_weights -prefix
-//               conv1_weights_ image_chanel_sim_netlist.v
-// Design      : image_chanel
+// Command     : write_verilog -force -mode funcsim -rename_top conv1_weights_13bits -prefix
+//               conv1_weights_13bits_ conv1_weights_sim_netlist.v
+// Design      : conv1_weights
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
 // Device      : xc7z020clg484-1
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "image_chanel,dist_mem_gen_v8_0_15,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "dist_mem_gen_v8_0_15,Vivado 2024.2" *) 
+(* CHECK_LICENSE_TYPE = "conv1_weights,dist_mem_gen_v8_0_15,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "dist_mem_gen_v8_0_15,Vivado 2024.2" *) 
 (* NotValidForBitStream *)
-module conv1_weights
+module conv1_weights_13bits
    (a,
     clk,
     spo);
-  input [9:0]a;
+  input [12:0]a;
   input clk;
   output [7:0]spo;
 

@@ -54,14 +54,14 @@
 // (in parentheses) to your own signal names.
 
 //----------- Begin Cut here for INSTANTIATION Template ---// INST_TAG
-conv1_weights your_instance_name (
-  .a(a),      // input wire [9 : 0] a
+conv1_weights_13bits your_instance_name (
+  .a(a),      // input wire [12 : 0] a
   .clk(clk),  // input wire clk
   .spo(spo)  // output wire [7 : 0] spo
 );
 // INST_TAG_END ------ End INSTANTIATION Template ---------
 
-// You must compile the wrapper file conv1_weights.v when simulating
-// the core, conv1_weights. When compiling the wrapper file, be sure to
+// You must compile the wrapper file conv1_weights_13bits.v when simulating
+// the core, conv1_weights_13bits. When compiling the wrapper file, be sure to
 // reference the Verilog simulation library.
 

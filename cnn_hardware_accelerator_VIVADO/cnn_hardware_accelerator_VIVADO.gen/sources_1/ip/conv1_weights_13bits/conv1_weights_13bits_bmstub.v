@@ -5,14 +5,14 @@
 `timescale 1 ps / 1 ps
 
 (* BLOCK_STUB = "true" *)
-module conv1_weights (
+module conv1_weights_13bits (
   a,
   clk,
   spo
 );
 
   (* X_INTERFACE_IGNORE = "true" *)
-  input [9:0]a;
+  input [12:0]a;
   (* X_INTERFACE_IGNORE = "true" *)
   input clk;
   (* X_INTERFACE_IGNORE = "true" *)

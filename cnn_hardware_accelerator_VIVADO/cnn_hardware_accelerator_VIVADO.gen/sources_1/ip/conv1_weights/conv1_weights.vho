@@ -53,7 +53,7 @@
 ------------- Begin Cut here for COMPONENT Declaration ------ COMP_TAG
 COMPONENT conv1_weights
   PORT (
-    a : IN STD_LOGIC_VECTOR(12 DOWNTO 0);
+    a : IN STD_LOGIC_VECTOR(9 DOWNTO 0);
     clk : IN STD_LOGIC;
     spo : OUT STD_LOGIC_VECTOR(7 DOWNTO 0) 
   );

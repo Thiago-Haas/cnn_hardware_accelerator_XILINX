@@ -55,7 +55,7 @@
 
 //----------- Begin Cut here for INSTANTIATION Template ---// INST_TAG
 conv1_weights your_instance_name (
-  .a(a),      // input wire [12 : 0] a
+  .a(a),      // input wire [9 : 0] a
   .clk(clk),  // input wire clk
   .spo(spo)  // output wire [7 : 0] spo
 );

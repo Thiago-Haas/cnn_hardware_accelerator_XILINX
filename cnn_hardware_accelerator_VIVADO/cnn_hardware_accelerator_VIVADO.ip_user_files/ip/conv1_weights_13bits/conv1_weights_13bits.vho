@@ -51,9 +51,9 @@
 -- The following code must appear in the VHDL architecture header.
 
 ------------- Begin Cut here for COMPONENT Declaration ------ COMP_TAG
-COMPONENT conv1_weights
+COMPONENT conv1_weights_13bits
   PORT (
-    a : IN STD_LOGIC_VECTOR(9 DOWNTO 0);
+    a : IN STD_LOGIC_VECTOR(12 DOWNTO 0);
     clk : IN STD_LOGIC;
     spo : OUT STD_LOGIC_VECTOR(7 DOWNTO 0) 
   );
@@ -64,7 +64,7 @@ END COMPONENT;
 -- body. Substitute your own instance name and net names.
 
 ------------- Begin Cut here for INSTANTIATION Template ----- INST_TAG
-your_instance_name : conv1_weights
+your_instance_name : conv1_weights_13bits
   PORT MAP (
     a => a,
     clk => clk,
@@ -72,8 +72,8 @@ your_instance_name : conv1_weights
   );
 -- INST_TAG_END ------ End INSTANTIATION Template ---------
 
--- You must compile the wrapper file conv1_weights.vhd when simulating
--- the core, conv1_weights. When compiling the wrapper file, be sure to
+-- You must compile the wrapper file conv1_weights_13bits.vhd when simulating
+-- the core, conv1_weights_13bits. When compiling the wrapper file, be sure to
 -- reference the VHDL simulation library.
 
 
