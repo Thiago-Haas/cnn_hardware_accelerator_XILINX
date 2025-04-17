@@ -1,0 +1,43 @@
+vlib work
+
+vcom -2008 types_pkg.vhd
+vcom -2008 banco_de_registradores.vhd
+vcom -2008 add1.vhd
+vcom -2008 add32.vhd
+vcom -2008 add32_tb.vhd
+vcom -2008 arvore_comparadores.vhd
+vcom -2008 arvore_soma_conv.vhd
+vcom -2008 conv1.vhd
+vcom -2008 conv1_bias.vhd
+vcom -2008 conv1_crt.vhd
+vcom -2008 conv1_op.vhd
+vcom -2008 conv1_tb.vhd
+vcom -2008 conv1_weights.vhd
+vcom -2008 counter.vhd
+vcom -2008 demux_1x4.vhd
+vcom -2008 fc.vhd
+vcom -2008 fc_crt.vhd
+vcom -2008 fc_op.vhd
+vcom -2008 generic_demultiplexer.vhd
+vcom -2008 generic_multiplexer.vhd
+vcom -2008 generic_ram.vhd
+vcom -2008 image_chanel.vhd
+vcom -2008 io_buffer.vhd
+vcom -2008 max_pooling.vhd
+vcom -2008 multiplicador_conv.vhd
+vcom -2008 neuronio.vhd
+vcom -2008 nucleo_convolucional.vhd
+vcom -2008 nucleo_convolucional_tb.vhd
+vcom -2008 one_hot_encoder.vhd
+vcom -2008 pool1.vhd
+vcom -2008 pool1_crt.vhd
+vcom -2008 pool1_op.vhd
+vcom -2008 rebuff1.vhd
+vcom -2008 rebuffer_crt.vhd
+vcom -2008 rebuffer_op.vhd
+vcom -2008 rebuffer_tb.vhd
+vcom -2008 registrador.vhd
+vcom -2008 relu.vhd
+vcom -2008 cnn_top.vhd
+vcom -2008 cnn_top_tb.vhd
+
