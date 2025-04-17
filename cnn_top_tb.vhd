@@ -18,11 +18,11 @@ architecture arch of cnn_top_tb is
       i_CLK    : in std_logic;
       i_CLR    : in std_logic;
       i_GO     : in std_logic;
-      i_LOAD   : in std_logic;
+      --i_LOAD   : in std_logic;
       i_SEL    : in std_logic_vector(5 downto 0) := (others => '0');
       o_DATA   : out std_logic_vector(7 downto 0);
-      o_READY  : out std_logic;
-      o_LOADED : out std_logic
+      o_READY  : out std_logic
+      --o_LOADED : out std_logic
     );
   end component;
   signal w_CLK    : std_logic;
@@ -44,11 +44,11 @@ begin
     i_CLK    => w_CLK,
     i_CLR    => w_CLR,
     i_GO     => w_GO,
-    i_LOAD   => w_LOAD,
+    --i_LOAD   => w_LOAD,
     i_SEL    => w_SEL,
     o_DATA   => w_DATA,
-    o_READY  => w_READY,
-    o_LOADED => w_LOADED
+    o_READY  => w_READY
+    --o_LOADED => w_LOADED
   );
   ---------------------
   p_CLK : process
@@ -69,7 +69,7 @@ begin
   begin
 
     w_GO   <= '0';
-    w_LOAD <= '0';
+    --w_LOAD <= '0';
     --------------------------
     w_CLR <= '1'; -- clear 
     wait for 2 * c_CLK_PERIOD;
@@ -78,10 +78,10 @@ begin
     ---------------------------
 
     -- inicia carregamento
-    w_LOAD <= '1';
+    --w_LOAD <= '1';
     wait for c_CLK_PERIOD;
-    w_LOAD <= '0';
-    wait until w_LOADED = '1';
+    --w_LOAD <= '0';
+    --wait until w_LOADED = '1';
     -- inicia processamento
     w_GO <= '1';
     wait for c_CLK_PERIOD;
