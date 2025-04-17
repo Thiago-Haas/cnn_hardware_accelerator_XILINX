@@ -126,10 +126,10 @@ architecture arch of cnn_top is
       init_file_name : string := "input_chanel_1.mif"
     );
     port (
-      address : in std_logic_vector (9 downto 0);
-      clock   : in std_logic := '1';
-      rden    : in std_logic := '1';
-      q       : out std_logic_vector (7 downto 0)
+      a : in std_logic_vector (9 downto 0);
+      clk   : in std_logic := '1';
+      --rden    : in std_logic := '1';
+      spo       : out std_logic_vector (7 downto 0)
     );
   end component;
 
@@ -407,29 +407,29 @@ begin
   u_IMG_CHA_0 : image_chanel
   generic map("input_img/A_input_chanel_R.mif")
   port map(
-    address => w_IMG_READ_ADDR,
-    clock   => i_CLK,
-    rden    => w_IMG_READ_ENA,
-    q       => w_REBUFF1_DATA_IN(0)
+    a => w_IMG_READ_ADDR,
+    clk   => i_CLK,
+    --rden    => w_IMG_READ_ENA,
+    spo       => w_REBUFF1_DATA_IN(0)
   );
 
   -- imagem de entrada
   u_IMG_CHA_1 : image_chanel
   generic map("input_img/A_input_chanel_G.mif")
   port map(
-    address => w_IMG_READ_ADDR,
-    clock   => i_CLK,
-    rden    => w_IMG_READ_ENA,
-    q       => w_REBUFF1_DATA_IN(1)
+    a => w_IMG_READ_ADDR,
+    clk   => i_CLK,
+    --rden    => w_IMG_READ_ENA,
+    spo       => w_REBUFF1_DATA_IN(1)
   );
   -- imagem de entrada
   u_IMG_CHA_2 : image_chanel
   generic map("input_img/A_input_chanel_B.mif")
   port map(
-    address => w_IMG_READ_ADDR,
-    clock   => i_CLK,
-    rden    => w_IMG_READ_ENA,
-    q       => w_REBUFF1_DATA_IN(2)
+    a => w_IMG_READ_ADDR,
+    clk   => i_CLK,
+    --rden    => w_IMG_READ_ENA,
+    spo       => w_REBUFF1_DATA_IN(2)
   );
 
   ------------------------------------------------------
