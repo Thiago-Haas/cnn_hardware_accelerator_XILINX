@@ -1,1 +1,0 @@
-conv1_weights_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_weights/conv1_weights_sim_netlist.vhdl,

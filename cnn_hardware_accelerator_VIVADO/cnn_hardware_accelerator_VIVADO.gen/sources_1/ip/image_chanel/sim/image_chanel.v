@@ -55,10 +55,12 @@
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module image_chanel (
   a,
+  clk,
   spo
 );
 
 input wire [9 : 0] a;
+input wire clk;
 output wire [7 : 0] spo;
 
   dist_mem_gen_v8_0_15 #(
@@ -66,7 +68,7 @@ output wire [7 : 0] spo;
     .C_ADDR_WIDTH(10),
     .C_DEFAULT_DATA("0"),
     .C_DEPTH(1024),
-    .C_HAS_CLK(0),
+    .C_HAS_CLK(1),
     .C_HAS_D(0),
     .C_HAS_DPO(0),
     .C_HAS_DPRA(0),
@@ -89,7 +91,7 @@ output wire [7 : 0] spo;
     .C_QCE_JOINED(0),
     .C_QUALIFY_WE(0),
     .C_READ_MIF(0),
-    .C_REG_A_D_INPUTS(0),
+    .C_REG_A_D_INPUTS(1),
     .C_REG_DPRA_INPUT(0),
     .C_SYNC_ENABLE(1),
     .C_WIDTH(8),
@@ -98,7 +100,7 @@ output wire [7 : 0] spo;
     .a(a),
     .d(8'B0),
     .dpra(10'B0),
-    .clk(1'D0),
+    .clk(clk),
     .we(1'D0),
     .i_ce(1'D1),
     .qspo_ce(1'D1),

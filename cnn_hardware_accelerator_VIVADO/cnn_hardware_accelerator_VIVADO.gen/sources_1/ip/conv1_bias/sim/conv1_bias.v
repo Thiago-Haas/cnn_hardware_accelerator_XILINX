@@ -55,18 +55,20 @@
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module conv1_bias (
   a,
+  clk,
   spo
 );
 
-input wire [4 : 0] a;
+input wire [5 : 0] a;
+input wire clk;
 output wire [31 : 0] spo;
 
   dist_mem_gen_v8_0_15 #(
     .C_FAMILY("zynq"),
-    .C_ADDR_WIDTH(5),
+    .C_ADDR_WIDTH(6),
     .C_DEFAULT_DATA("0"),
-    .C_DEPTH(32),
-    .C_HAS_CLK(0),
+    .C_DEPTH(64),
+    .C_HAS_CLK(1),
     .C_HAS_D(0),
     .C_HAS_DPO(0),
     .C_HAS_DPRA(0),
@@ -89,7 +91,7 @@ output wire [31 : 0] spo;
     .C_QCE_JOINED(0),
     .C_QUALIFY_WE(0),
     .C_READ_MIF(0),
-    .C_REG_A_D_INPUTS(0),
+    .C_REG_A_D_INPUTS(1),
     .C_REG_DPRA_INPUT(0),
     .C_SYNC_ENABLE(1),
     .C_WIDTH(32),
@@ -97,8 +99,8 @@ output wire [31 : 0] spo;
   ) inst (
     .a(a),
     .d(32'B0),
-    .dpra(5'B0),
-    .clk(1'D0),
+    .dpra(6'B0),
+    .clk(clk),
     .we(1'D0),
     .i_ce(1'D1),
     .qspo_ce(1'D1),

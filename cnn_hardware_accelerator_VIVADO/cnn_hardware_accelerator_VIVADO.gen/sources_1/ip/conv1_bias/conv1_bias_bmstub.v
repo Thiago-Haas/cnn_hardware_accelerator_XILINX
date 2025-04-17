@@ -7,11 +7,14 @@
 (* BLOCK_STUB = "true" *)
 module conv1_bias (
   a,
+  clk,
   spo
 );
 
   (* X_INTERFACE_IGNORE = "true" *)
-  input [4:0]a;
+  input [5:0]a;
+  (* X_INTERFACE_IGNORE = "true" *)
+  input clk;
   (* X_INTERFACE_IGNORE = "true" *)
   output [31:0]spo;
 

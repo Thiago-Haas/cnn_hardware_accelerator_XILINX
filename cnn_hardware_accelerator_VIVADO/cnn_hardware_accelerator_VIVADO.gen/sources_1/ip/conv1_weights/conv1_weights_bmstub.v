@@ -7,11 +7,14 @@
 (* BLOCK_STUB = "true" *)
 module conv1_weights (
   a,
+  clk,
   spo
 );
 
   (* X_INTERFACE_IGNORE = "true" *)
-  input [7:0]a;
+  input [12:0]a;
+  (* X_INTERFACE_IGNORE = "true" *)
+  input clk;
   (* X_INTERFACE_IGNORE = "true" *)
   output [7:0]spo;
 

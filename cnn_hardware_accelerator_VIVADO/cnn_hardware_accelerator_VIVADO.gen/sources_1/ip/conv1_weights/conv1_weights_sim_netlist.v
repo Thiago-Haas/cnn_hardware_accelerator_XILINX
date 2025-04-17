@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-// Date        : Wed Apr 16 16:01:55 2025
+// Date        : Thu Apr 17 14:50:46 2025
 // Host        : leds-inspiron3020 running 64-bit Ubuntu 24.04.2 LTS
-// Command     : write_verilog -force -mode funcsim
-//               /home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_weights/conv1_weights_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top conv1_weights -prefix
+//               conv1_weights_ conv1_weights_sim_netlist.v
 // Design      : conv1_weights
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -17,8 +17,10 @@
 (* NotValidForBitStream *)
 module conv1_weights
    (a,
+    clk,
     spo);
-  input [7:0]a;
+  input [12:0]a;
+  input clk;
   output [7:0]spo;
 
   wire \<const0> ;

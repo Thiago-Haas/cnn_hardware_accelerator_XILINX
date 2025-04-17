@@ -7,7 +7,7 @@
   **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
   **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
   **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-  **** Start of session at: Wed Apr 16 16:11:52 2025
+  **** Start of session at: Thu Apr 17 13:15:43 2025
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -20,16 +20,16 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1183470
+INFO: [Synth 8-7075] Helper process launched with PID 1281946
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2000.633 ; gain = 419.797 ; free physical = 609 ; free virtual = 20134
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2000.598 ; gain = 419.828 ; free physical = 408 ; free virtual = 20606
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'image_chanel' [/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/synth/image_chanel.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'image_chanel' [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/synth/image_chanel.vhd:67]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_ADDR_WIDTH bound to: 10 - type: integer 
 	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 	Parameter C_DEPTH bound to: 1024 - type: integer 
-	Parameter C_HAS_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_CLK bound to: 1 - type: integer 
 	Parameter C_HAS_D bound to: 0 - type: integer 
 	Parameter C_HAS_DPO bound to: 0 - type: integer 
 	Parameter C_HAS_DPRA bound to: 0 - type: integer 
@@ -52,13 +52,13 @@ INFO: [Synth 8-638] synthesizing module 'image_chanel' [/home/haas/Workspace/CNN
 	Parameter C_QCE_JOINED bound to: 0 - type: integer 
 	Parameter C_QUALIFY_WE bound to: 0 - type: integer 
 	Parameter C_READ_MIF bound to: 0 - type: integer 
-	Parameter C_REG_A_D_INPUTS bound to: 0 - type: integer 
+	Parameter C_REG_A_D_INPUTS bound to: 1 - type: integer 
 	Parameter C_REG_DPRA_INPUT bound to: 0 - type: integer 
 	Parameter C_SYNC_ENABLE bound to: 1 - type: integer 
 	Parameter C_WIDTH bound to: 8 - type: integer 
 	Parameter C_PARSER_TYPE bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'dist_mem_gen_v8_0_15' declared at '/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd:3191' bound to instance 'U0' of component 'dist_mem_gen_v8_0_15' [/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/synth/image_chanel.vhd:132]
-INFO: [Synth 8-256] done synthesizing module 'image_chanel' (0#1) [/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/synth/image_chanel.vhd:66]
+INFO: [Synth 8-3491] module 'dist_mem_gen_v8_0_15' declared at '/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd:3191' bound to instance 'U0' of component 'dist_mem_gen_v8_0_15' [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/synth/image_chanel.vhd:133]
+INFO: [Synth 8-256] done synthesizing module 'image_chanel' (0#1) [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/synth/image_chanel.vhd:67]
 WARNING: [Synth 8-7129] Port qspo[7] in module rom is either unconnected or has no load
 WARNING: [Synth 8-7129] Port qspo[6] in module rom is either unconnected or has no load
 WARNING: [Synth 8-7129] Port qspo[5] in module rom is either unconnected or has no load
@@ -139,7 +139,6 @@ WARNING: [Synth 8-7129] Port dpra[3] in module dist_mem_gen_v8_0_15 is either un
 WARNING: [Synth 8-7129] Port dpra[2] in module dist_mem_gen_v8_0_15 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port dpra[1] in module dist_mem_gen_v8_0_15 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port dpra[0] in module dist_mem_gen_v8_0_15 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port clk in module dist_mem_gen_v8_0_15 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port we in module dist_mem_gen_v8_0_15 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port i_ce in module dist_mem_gen_v8_0_15 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port qspo_ce in module dist_mem_gen_v8_0_15 is either unconnected or has no load
@@ -150,53 +149,53 @@ WARNING: [Synth 8-7129] Port qdpo_rst in module dist_mem_gen_v8_0_15 is either u
 WARNING: [Synth 8-7129] Port qspo_srst in module dist_mem_gen_v8_0_15 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port qdpo_srst in module dist_mem_gen_v8_0_15 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2075.602 ; gain = 494.766 ; free physical = 525 ; free virtual = 20050
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2075.566 ; gain = 494.797 ; free physical = 322 ; free virtual = 20521
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2093.414 ; gain = 512.578 ; free physical = 524 ; free virtual = 20050
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2093.379 ; gain = 512.609 ; free physical = 321 ; free virtual = 20519
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2093.414 ; gain = 512.578 ; free physical = 524 ; free virtual = 20050
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2093.379 ; gain = 512.609 ; free physical = 321 ; free virtual = 20519
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2093.414 ; gain = 0.000 ; free physical = 525 ; free virtual = 20050
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2093.379 ; gain = 0.000 ; free physical = 321 ; free virtual = 20519
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/image_chanel_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/image_chanel_ooc.xdc] for cell 'U0'
-Parsing XDC File [/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/image_chanel_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/image_chanel_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/image_chanel_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/image_chanel_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/image_chanel_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/image_chanel_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2166.352 ; gain = 0.000 ; free physical = 526 ; free virtual = 20052
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2166.316 ; gain = 0.000 ; free physical = 304 ; free virtual = 20499
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2166.352 ; gain = 0.000 ; free physical = 526 ; free virtual = 20052
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2166.316 ; gain = 0.000 ; free physical = 304 ; free virtual = 20499
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2166.352 ; gain = 585.516 ; free physical = 529 ; free virtual = 20082
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2166.316 ; gain = 585.547 ; free physical = 304 ; free virtual = 20500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2174.355 ; gain = 593.520 ; free physical = 529 ; free virtual = 20082
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2174.320 ; gain = 593.551 ; free physical = 304 ; free virtual = 20500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/image_chanel_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/image_chanel_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2174.355 ; gain = 593.520 ; free physical = 529 ; free virtual = 20082
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2174.320 ; gain = 593.551 ; free physical = 304 ; free virtual = 20500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2174.355 ; gain = 593.520 ; free physical = 528 ; free virtual = 20082
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2174.320 ; gain = 593.551 ; free physical = 304 ; free virtual = 20500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -228,28 +227,28 @@ WARNING: [Synth 8-7129] Port dpo[1] in module dist_mem_gen_v8_0_15 is either unc
 WARNING: [Synth 8-7129] Port dpo[0] in module dist_mem_gen_v8_0_15 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port qspo[7] in module dist_mem_gen_v8_0_15 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port qspo[6] in module dist_mem_gen_v8_0_15 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[5] in module dist_mem_gen_v8_0_15 is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2174.355 ; gain = 593.520 ; free physical = 535 ; free virtual = 20089
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2174.320 ; gain = 593.551 ; free physical = 305 ; free virtual = 20501
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-3321] create_clock attempting to set clock on an unknown port/pin for constraint at line 53 of /home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/image_chanel_ooc.xdc. [/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/image_chanel_ooc.xdc:53]
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2247.355 ; gain = 666.520 ; free physical = 422 ; free virtual = 19984
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2245.320 ; gain = 664.551 ; free physical = 497 ; free virtual = 20454
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2247.355 ; gain = 666.520 ; free physical = 422 ; free virtual = 19984
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2245.320 ; gain = 664.551 ; free physical = 497 ; free virtual = 20454
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2256.371 ; gain = 675.535 ; free physical = 408 ; free virtual = 19970
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2254.336 ; gain = 673.566 ; free physical = 492 ; free virtual = 20449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -267,37 +266,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2426.184 ; gain = 845.348 ; free physical = 292 ; free virtual = 19847
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2424.148 ; gain = 843.379 ; free physical = 344 ; free virtual = 20301
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2426.184 ; gain = 845.348 ; free physical = 292 ; free virtual = 19847
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2424.148 ; gain = 843.379 ; free physical = 344 ; free virtual = 20301
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2426.184 ; gain = 845.348 ; free physical = 292 ; free virtual = 19847
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2424.148 ; gain = 843.379 ; free physical = 344 ; free virtual = 20301
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2426.184 ; gain = 845.348 ; free physical = 292 ; free virtual = 19847
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2424.148 ; gain = 843.379 ; free physical = 344 ; free virtual = 20301
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2426.184 ; gain = 845.348 ; free physical = 292 ; free virtual = 19847
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2424.148 ; gain = 843.379 ; free physical = 344 ; free virtual = 20301
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2426.184 ; gain = 845.348 ; free physical = 292 ; free virtual = 19847
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2424.148 ; gain = 843.379 ; free physical = 344 ; free virtual = 20301
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -315,28 +314,28 @@ Report Cell Usage:
 +-+-----+------+
 +-+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2426.184 ; gain = 845.348 ; free physical = 292 ; free virtual = 19847
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2424.148 ; gain = 843.379 ; free physical = 344 ; free virtual = 20301
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 1 critical warnings and 63 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2426.184 ; gain = 772.410 ; free physical = 292 ; free virtual = 19847
-Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2426.191 ; gain = 845.348 ; free physical = 292 ; free virtual = 19847
+Synthesis finished with 0 errors, 0 critical warnings and 63 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2424.148 ; gain = 770.441 ; free physical = 344 ; free virtual = 20301
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2424.156 ; gain = 843.379 ; free physical = 344 ; free virtual = 20301
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2426.191 ; gain = 0.000 ; free physical = 292 ; free virtual = 19847
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2424.156 ; gain = 0.000 ; free physical = 344 ; free virtual = 20301
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2426.191 ; gain = 0.000 ; free physical = 446 ; free virtual = 20001
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2424.156 ; gain = 0.000 ; free physical = 510 ; free virtual = 20467
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: f7ce6f86
+Synth Design complete | Checksum: 55489726
 INFO: [Common 17-83] Releasing license: Synthesis
-18 Infos, 101 Warnings, 1 Critical Warnings and 0 Errors encountered.
+18 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 2426.191 ; gain = 984.055 ; free physical = 450 ; free virtual = 20005
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1730.613; main = 1628.002; forked = 269.125
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3200.391; main = 2426.188; forked = 917.016
-INFO: [Common 17-1381] The checkpoint '/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/image_chanel_synth_1/image_chanel.dcp' has been generated.
-INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-INFO: [Common 17-1381] The checkpoint '/home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/image_chanel_synth_1/image_chanel.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 2424.156 ; gain = 945.891 ; free physical = 510 ; free virtual = 20467
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1743.769; main = 1621.292; forked = 267.785
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3226.355; main = 2424.152; forked = 917.016
+INFO: [Common 17-1381] The checkpoint '/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/image_chanel_synth_1/image_chanel.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP image_chanel, cache-ID = 5a1536ff7d0294b0
+INFO: [Common 17-1381] The checkpoint '/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/image_chanel_synth_1/image_chanel.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file image_chanel_utilization_synth.rpt -pb image_chanel_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 16 16:12:09 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 17 13:16:00 2025...

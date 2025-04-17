@@ -53,7 +53,8 @@
 ------------- Begin Cut here for COMPONENT Declaration ------ COMP_TAG
 COMPONENT conv1_bias
   PORT (
-    a : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+    a : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+    clk : IN STD_LOGIC;
     spo : OUT STD_LOGIC_VECTOR(31 DOWNTO 0) 
   );
 END COMPONENT;
@@ -66,6 +67,7 @@ END COMPONENT;
 your_instance_name : conv1_bias
   PORT MAP (
     a => a,
+    clk => clk,
     spo => spo
   );
 -- INST_TAG_END ------ End INSTANTIATION Template ---------

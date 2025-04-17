@@ -55,7 +55,8 @@
 
 //----------- Begin Cut here for INSTANTIATION Template ---// INST_TAG
 conv1_bias your_instance_name (
-  .a(a),      // input wire [4 : 0] a
+  .a(a),      // input wire [5 : 0] a
+  .clk(clk),  // input wire clk
   .spo(spo)  // output wire [31 : 0] spo
 );
 // INST_TAG_END ------ End INSTANTIATION Template ---------

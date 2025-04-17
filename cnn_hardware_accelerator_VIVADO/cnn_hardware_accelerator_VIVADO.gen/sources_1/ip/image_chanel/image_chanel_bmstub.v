@@ -7,11 +7,14 @@
 (* BLOCK_STUB = "true" *)
 module image_chanel (
   a,
+  clk,
   spo
 );
 
   (* X_INTERFACE_IGNORE = "true" *)
   input [9:0]a;
+  (* X_INTERFACE_IGNORE = "true" *)
+  input clk;
   (* X_INTERFACE_IGNORE = "true" *)
   output [7:0]spo;
 

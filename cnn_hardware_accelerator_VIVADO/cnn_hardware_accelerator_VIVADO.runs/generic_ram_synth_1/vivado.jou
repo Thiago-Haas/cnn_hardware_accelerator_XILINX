@@ -3,22 +3,22 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Wed Apr 16 16:11:23 2025
-# Process ID         : 1182949
-# Current directory  : /home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/generic_ram_synth_1
+# Start of session at: Thu Apr 17 14:42:06 2025
+# Process ID         : 1295345
+# Current directory  : /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/generic_ram_synth_1
 # Command line       : vivado -log generic_ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source generic_ram.tcl
-# Log file           : /home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/generic_ram_synth_1/generic_ram.vds
-# Journal file       : /home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/generic_ram_synth_1/vivado.jou
+# Log file           : /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/generic_ram_synth_1/generic_ram.vds
+# Journal file       : /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/generic_ram_synth_1/vivado.jou
 # Running On         : leds-inspiron3020
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.2 LTS
 # Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13700
-# CPU Frequency      : 2988.642 MHz
+# CPU Frequency      : 921.119 MHz
 # CPU Physical cores : 16
 # CPU Logical cores  : 24
 # Host memory        : 16438 MB
 # Swap memory        : 17179 MB
 # Total Virtual      : 33618 MB
-# Available Virtual  : 22329 MB
+# Available Virtual  : 22488 MB
 #-----------------------------------------------------------
 source generic_ram.tcl -notrace

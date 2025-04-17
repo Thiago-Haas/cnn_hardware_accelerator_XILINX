@@ -7,11 +7,11 @@
     "gen_directory": "../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_weights",
     "parameters": {
       "component_parameters": {
-        "depth": [ { "value": "256", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "depth": [ { "value": "8192", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "data_width": [ { "value": "8", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "Component_Name": [ { "value": "conv1_weights", "resolve_type": "user", "usage": "all" } ],
         "memory_type": [ { "value": "rom", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
-        "input_options": [ { "value": "non_registered", "resolve_type": "user", "usage": "all" } ],
+        "input_options": [ { "value": "registered", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
         "input_clock_enable": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "qualify_we_with_i_ce": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "dual_port_address": [ { "value": "non_registered", "resolve_type": "user", "usage": "all" } ],
@@ -19,7 +19,7 @@
         "output_options": [ { "value": "non_registered", "resolve_type": "user", "usage": "all" } ],
         "Pipeline_Stages": [ { "value": "0", "resolve_type": "user", "usage": "all" } ],
         "common_output_clk": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
-        "single_port_output_clock_enable": [ { "value": "false", "value_src": "user", "resolve_type": "user", "format": "bool", "usage": "all" } ],
+        "single_port_output_clock_enable": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "common_output_ce": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "dual_port_output_clock_enable": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "simple_dual_port_output_clock_enable": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
@@ -36,10 +36,10 @@
       },
       "model_parameters": {
         "C_FAMILY": [ { "value": "zynq", "resolve_type": "generated", "usage": "all" } ],
-        "C_ADDR_WIDTH": [ { "value": "8", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_ADDR_WIDTH": [ { "value": "13", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_DEFAULT_DATA": [ { "value": "0", "resolve_type": "generated", "usage": "all" } ],
-        "C_DEPTH": [ { "value": "256", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_HAS_CLK": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_DEPTH": [ { "value": "8192", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_HAS_CLK": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_HAS_D": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_HAS_DPO": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_HAS_DPRA": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
@@ -62,7 +62,7 @@
         "C_QCE_JOINED": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_QUALIFY_WE": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_READ_MIF": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_REG_A_D_INPUTS": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_REG_A_D_INPUTS": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_REG_DPRA_INPUT": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_SYNC_ENABLE": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_WIDTH": [ { "value": "8", "resolve_type": "generated", "format": "long", "usage": "all" } ],
@@ -94,7 +94,8 @@
     },
     "boundary": {
       "ports": {
-        "a": [ { "direction": "in", "size_left": "7", "size_right": "0", "driver_value": "0" } ],
+        "a": [ { "direction": "in", "size_left": "12", "size_right": "0", "driver_value": "0" } ],
+        "clk": [ { "direction": "in", "driver_value": "0" } ],
         "spo": [ { "direction": "out", "size_left": "7", "size_right": "0" } ]
       }
     }

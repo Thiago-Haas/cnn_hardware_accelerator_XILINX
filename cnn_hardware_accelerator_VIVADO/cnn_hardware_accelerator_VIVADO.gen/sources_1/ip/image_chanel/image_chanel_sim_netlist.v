@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-// Date        : Wed Apr 16 16:12:09 2025
+// Date        : Thu Apr 17 13:16:00 2025
 // Host        : leds-inspiron3020 running 64-bit Ubuntu 24.04.2 LTS
 // Command     : write_verilog -force -mode funcsim
-//               /home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/image_chanel_sim_netlist.v
+//               /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel/image_chanel_sim_netlist.v
 // Design      : image_chanel
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -17,8 +17,10 @@
 (* NotValidForBitStream *)
 module image_chanel
    (a,
+    clk,
     spo);
   input [9:0]a;
+  input clk;
   output [7:0]spo;
 
   wire \<const0> ;

@@ -59,6 +59,9 @@ USE dist_mem_gen_v8_0_15.dist_mem_gen_v8_0_15;
 ENTITY generic_ram IS
   PORT (
     a : IN STD_LOGIC_VECTOR(9 DOWNTO 0);
+    d : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+    clk : IN STD_LOGIC;
+    we : IN STD_LOGIC;
     spo : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
   );
 END generic_ram;
@@ -126,8 +129,8 @@ ARCHITECTURE generic_ram_arch OF generic_ram IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF generic_ram_arch : ARCHITECTURE IS "generic_ram,dist_mem_gen_v8_0_15,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF generic_ram_arch: ARCHITECTURE IS "generic_ram,dist_mem_gen_v8_0_15,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=dist_mem_gen,x_ipVersion=8.0,x_ipCoreRevision=15,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,C_FAMILY=zynq,C_ADDR_WIDTH=10,C_DEFAULT_DATA=0,C_DEPTH=1024,C_HAS_CLK=0,C_HAS_D=0,C_HAS_DPO=0,C_HAS_DPRA=0,C_HAS_I_CE=0,C_HAS_QDPO=0,C_HAS_QDPO_CE=0,C_HAS_QDPO_CLK=0,C_HAS_QDPO_RST=0,C_HAS_QDPO_SRST=0,C_HAS_QSPO=0,C_HAS_QSPO_CE=0,C_HAS_QSPO_RST=0,C_HAS_QSPO_SRST=0,C_HAS_SPO=1,C_HAS_WE=0,C_MEM_INIT_FILE=no" & 
-"_coe_file_loaded,C_ELABORATION_DIR=./,C_MEM_TYPE=0,C_PIPELINE_STAGES=0,C_QCE_JOINED=0,C_QUALIFY_WE=0,C_READ_MIF=0,C_REG_A_D_INPUTS=0,C_REG_DPRA_INPUT=0,C_SYNC_ENABLE=1,C_WIDTH=8,C_PARSER_TYPE=1}";
+  ATTRIBUTE CORE_GENERATION_INFO OF generic_ram_arch: ARCHITECTURE IS "generic_ram,dist_mem_gen_v8_0_15,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=dist_mem_gen,x_ipVersion=8.0,x_ipCoreRevision=15,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,C_FAMILY=zynq,C_ADDR_WIDTH=10,C_DEFAULT_DATA=0,C_DEPTH=1024,C_HAS_CLK=1,C_HAS_D=1,C_HAS_DPO=0,C_HAS_DPRA=0,C_HAS_I_CE=0,C_HAS_QDPO=0,C_HAS_QDPO_CE=0,C_HAS_QDPO_CLK=0,C_HAS_QDPO_RST=0,C_HAS_QDPO_SRST=0,C_HAS_QSPO=0,C_HAS_QSPO_CE=0,C_HAS_QSPO_RST=0,C_HAS_QSPO_SRST=0,C_HAS_SPO=1,C_HAS_WE=1,C_MEM_INIT_FILE=no" & 
+"_coe_file_loaded,C_ELABORATION_DIR=./,C_MEM_TYPE=1,C_PIPELINE_STAGES=0,C_QCE_JOINED=0,C_QUALIFY_WE=0,C_READ_MIF=0,C_REG_A_D_INPUTS=0,C_REG_DPRA_INPUT=0,C_SYNC_ENABLE=1,C_WIDTH=8,C_PARSER_TYPE=1}";
 BEGIN
   U0 : dist_mem_gen_v8_0_15
     GENERIC MAP (
@@ -135,8 +138,8 @@ BEGIN
       C_ADDR_WIDTH => 10,
       C_DEFAULT_DATA => "0",
       C_DEPTH => 1024,
-      C_HAS_CLK => 0,
-      C_HAS_D => 0,
+      C_HAS_CLK => 1,
+      C_HAS_D => 1,
       C_HAS_DPO => 0,
       C_HAS_DPRA => 0,
       C_HAS_I_CE => 0,
@@ -150,10 +153,10 @@ BEGIN
       C_HAS_QSPO_RST => 0,
       C_HAS_QSPO_SRST => 0,
       C_HAS_SPO => 1,
-      C_HAS_WE => 0,
+      C_HAS_WE => 1,
       C_MEM_INIT_FILE => "no_coe_file_loaded",
       C_ELABORATION_DIR => "./",
-      C_MEM_TYPE => 0,
+      C_MEM_TYPE => 1,
       C_PIPELINE_STAGES => 0,
       C_QCE_JOINED => 0,
       C_QUALIFY_WE => 0,
@@ -166,10 +169,10 @@ BEGIN
     )
     PORT MAP (
       a => a,
-      d => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 8)),
+      d => d,
       dpra => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 10)),
-      clk => '0',
-      we => '0',
+      clk => clk,
+      we => we,
       i_ce => '1',
       qspo_ce => '1',
       qdpo_ce => '1',

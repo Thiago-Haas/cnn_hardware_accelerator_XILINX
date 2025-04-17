@@ -2,10 +2,10 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
--- Date        : Wed Apr 16 16:01:55 2025
+-- Date        : Thu Apr 17 14:50:46 2025
 -- Host        : leds-inspiron3020 running 64-bit Ubuntu 24.04.2 LTS
--- Command     : write_vhdl -force -mode funcsim
---               /home/haas/Workspace/CNN_ACELERATOR/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_weights/conv1_weights_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top conv1_weights -prefix
+--               conv1_weights_ conv1_weights_sim_netlist.vhdl
 -- Design      : conv1_weights
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -17,7 +17,8 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity conv1_weights is
   port (
-    a : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    a : in STD_LOGIC_VECTOR ( 12 downto 0 );
+    clk : in STD_LOGIC;
     spo : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
   attribute NotValidForBitStream : boolean;
