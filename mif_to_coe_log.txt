@@ -1,0 +1,79 @@
+=== MIF to COE Conversion Log ===
+
+Original: ./input_img/A_input_chanel_B.mif
+Converted: ./input_img/A_input_chanel_B.coe
+
+Original: ./input_img/Y_input_chanel_G.mif
+Converted: ./input_img/Y_input_chanel_G.coe
+
+Original: ./input_img/A_input_chanel_R.mif
+Converted: ./input_img/A_input_chanel_R.coe
+
+Original: ./input_img/Y_input_chanel_B.mif
+Converted: ./input_img/Y_input_chanel_B.coe
+
+Original: ./input_img/A_input_chanel_G.mif
+Converted: ./input_img/A_input_chanel_G.coe
+
+Original: ./input_img/Y_input_chanel_R.mif
+Converted: ./input_img/Y_input_chanel_R.coe
+
+Original: ./weights_and_biases/fc_bias.mif
+Converted: ./weights_and_biases/fc_bias.coe
+
+Original: ./weights_and_biases/fc.mif
+Converted: ./weights_and_biases/fc.coe
+
+Original: ./weights_and_biases/conv3.mif
+Converted: ./weights_and_biases/conv3.coe
+
+Original: ./weights_and_biases/conv4.mif
+Converted: ./weights_and_biases/conv4.coe
+
+Original: ./weights_and_biases/conv2_bias.mif
+Converted: ./weights_and_biases/conv2_bias.coe
+
+Original: ./weights_and_biases/conv2.mif
+Converted: ./weights_and_biases/conv2.coe
+
+Original: ./weights_and_biases/conv4_bias.mif
+Converted: ./weights_and_biases/conv4_bias.coe
+
+Original: ./weights_and_biases/conv1.mif
+Converted: ./weights_and_biases/conv1.coe
+
+Original: ./weights_and_biases/conv3_bias.mif
+Converted: ./weights_and_biases/conv3_bias.coe
+
+Original: ./weights_and_biases/conv1_bias.mif
+Converted: ./weights_and_biases/conv1_bias.coe
+
+Original: ./weights_and_biases/mif_files/fc_bias.mif
+Converted: ./weights_and_biases/mif_files/fc_bias.coe
+
+Original: ./weights_and_biases/mif_files/fc.mif
+Converted: ./weights_and_biases/mif_files/fc.coe
+
+Original: ./weights_and_biases/mif_files/conv3.mif
+Converted: ./weights_and_biases/mif_files/conv3.coe
+
+Original: ./weights_and_biases/mif_files/conv4.mif
+Converted: ./weights_and_biases/mif_files/conv4.coe
+
+Original: ./weights_and_biases/mif_files/conv2_bias.mif
+Converted: ./weights_and_biases/mif_files/conv2_bias.coe
+
+Original: ./weights_and_biases/mif_files/conv2.mif
+Converted: ./weights_and_biases/mif_files/conv2.coe
+
+Original: ./weights_and_biases/mif_files/conv4_bias.mif
+Converted: ./weights_and_biases/mif_files/conv4_bias.coe
+
+Original: ./weights_and_biases/mif_files/conv1.mif
+Converted: ./weights_and_biases/mif_files/conv1.coe
+
+Original: ./weights_and_biases/mif_files/conv3_bias.mif
+Converted: ./weights_and_biases/mif_files/conv3_bias.coe
+
+Original: ./weights_and_biases/mif_files/conv1_bias.mif
+Converted: ./weights_and_biases/mif_files/conv1_bias.coe
