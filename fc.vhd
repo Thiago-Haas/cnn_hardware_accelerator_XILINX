@@ -118,30 +118,57 @@ architecture arch of fc is
     );
   end component;
 
-  component conv1_weights is
+--  component conv1_weights is
+--    generic (
+--      init_file_name : string  := "conv1.mif";
+--      DATA_WIDTH     : integer := 8;
+--      DATA_DEPTH     : integer := 10
+--    );
+--    port (
+--      address : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+--      clock   : in std_logic := '1';
+--      rden    : in std_logic := '1';
+--      q       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+--    );
+--  end component;
+
+  component convFC_weights is
     generic (
       init_file_name : string  := "conv1.mif";
       DATA_WIDTH     : integer := 8;
       DATA_DEPTH     : integer := 10
     );
     port (
-      address : in std_logic_vector (DATA_DEPTH - 1 downto 0);
-      clock   : in std_logic := '1';
-      rden    : in std_logic := '1';
-      q       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+      a : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+      clk   : in std_logic := '1';
+      --rden    : in std_logic := '1';
+      spo       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
     );
   end component;
-  component conv1_bias is
+--  component conv1_bias is
+--    generic (
+--      init_file_name : string  := "conv2_bias.mif";
+--      DATA_WIDTH     : integer := 32;
+--      DATA_DEPTH     : integer := 5
+--    );
+--    port (
+--      address : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+--      clken   : in std_logic := '1';
+--      clock   : in std_logic := '1';
+--      q       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+--    );
+--  end component;
+component convFC_bias is
     generic (
       init_file_name : string  := "conv2_bias.mif";
       DATA_WIDTH     : integer := 32;
       DATA_DEPTH     : integer := 5
     );
     port (
-      address : in std_logic_vector (DATA_DEPTH - 1 downto 0);
-      clken   : in std_logic := '1';
-      clock   : in std_logic := '1';
-      q       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+      a : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+      --clken   : in std_logic := '1';
+      clk   : in std_logic := '1';
+      spo       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
     );
   end component;
   -------------------------------
@@ -161,32 +188,46 @@ architecture arch of fc is
 
 begin
 
-  -- memoria rom de pesos
-  u_ROM_WEIGHTS : conv1_weights
+--  -- memoria rom de pesos
+--  u_ROM_WEIGHTS : conv1_weights
+--  generic map(
+--    init_file_name => "weights_and_biases/fc.mif",
+--    DATA_WIDTH     => 8,
+--    DATA_DEPTH     => WEIGHT_ADDRESS_WIDTH
+--  )
+--  port map(
+--    address => w_WEIGHT_READ_ADDR,
+--    clock   => i_CLK,
+--    rden    => '1',
+--    q       => w_ROM_OUT
+--  );
+  
+    -- memoria rom de pesos
+  u_ROM_WEIGHTS : convFC_weights
   generic map(
     init_file_name => "weights_and_biases/fc.mif",
     DATA_WIDTH     => 8,
     DATA_DEPTH     => WEIGHT_ADDRESS_WIDTH
   )
   port map(
-    address => w_WEIGHT_READ_ADDR,
-    clock   => i_CLK,
-    rden    => '1',
-    q       => w_ROM_OUT
+    a => w_WEIGHT_READ_ADDR,
+    clk   => i_CLK,
+    --rden    => '1',
+    spo       => w_ROM_OUT
   );
 
   -- memeoria rom de BIAS E SCALE
-  u_ROM_BIAS : conv1_bias
+  u_ROM_BIAS : convFC_bias
   generic map(
     init_file_name => "weights_and_biases/fc_bias.mif",
     DATA_WIDTH     => 32,
     DATA_DEPTH     => BIAS_ADDRESS_WIDTH
   )
   port map(
-    address => w_BIAS_READ_ADDR,
-    clken   => '1',
-    clock   => i_CLK,
-    q       => w_BIAS_SCALE
+    a => w_BIAS_READ_ADDR,
+    --clken   => '1',
+    clk   => i_CLK,
+    spo       => w_BIAS_SCALE
   );
 
   u_CONTROLE : fc_crt
