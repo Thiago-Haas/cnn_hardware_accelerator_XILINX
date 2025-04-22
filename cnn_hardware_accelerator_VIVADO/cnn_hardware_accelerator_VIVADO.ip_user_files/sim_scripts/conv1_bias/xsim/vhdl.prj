@@ -1,5 +1,0 @@
-vhdl xil_defaultlib  \
-"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_bias/conv1_bias_sim_netlist.vhdl" \
-
-# Do not sort compile order
-nosort
