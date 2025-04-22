@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Apr 22 15:20:49 2025
+# Process ID         : 1839681
+# Current directory  : /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv3_weights_synth_1
+# Command line       : vivado -log conv3_weights.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source conv3_weights.tcl
+# Log file           : /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv3_weights_synth_1/conv3_weights.vds
+# Journal file       : /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv3_weights_synth_1/vivado.jou
+# Running On         : leds-inspiron3020
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13700
+# CPU Frequency      : 800.000 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 24
+# Host memory        : 16438 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33618 MB
+# Available Virtual  : 19413 MB
+#-----------------------------------------------------------
+source conv3_weights.tcl -notrace
