@@ -1,4 +1,4 @@
-memory_initialization_radix=bin;
+memory_initialization_radix=2;
 memory_initialization_vector=
 11110001000011001111111100000000,
 11100000101100001110100000000000,
