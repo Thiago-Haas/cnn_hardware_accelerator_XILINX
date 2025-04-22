@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="conv3_bias_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1745346747">
+<GenRun Id="conv3_bias_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1745356915">
   <File Type="VDS-TIMINGSUMMARY" Name="conv3_bias_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="conv3_bias.dcp"/>
   <File Type="RDS-UTIL-PB" Name="conv3_bias_utilization_synth.pb"/>
   <File Type="RDS-UTIL" Name="conv3_bias_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="conv3_bias_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="conv3_bias.vds"/>
+  <File Type="REPORTS-TCL" Name="conv3_bias_reports.tcl"/>
   <File Type="VDS-TIMING-PB" Name="conv3_bias_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="conv3_bias.tcl"/>
-  <File Type="REPORTS-TCL" Name="conv3_bias_reports.tcl"/>
-  <File Type="RDS-RDS" Name="conv3_bias.vds"/>
-  <File Type="RDS-PROPCONSTRS" Name="conv3_bias_drc_synth.rpt"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/conv3_bias" RelGenDir="$PGENDIR/conv3_bias">
     <File Path="$PSRCDIR/sources_1/ip/conv3_bias/conv3_bias.xci">
       <FileInfo>
@@ -42,9 +42,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

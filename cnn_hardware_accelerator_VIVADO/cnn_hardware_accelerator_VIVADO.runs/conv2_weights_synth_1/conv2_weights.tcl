@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "/home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights.tcl"
+  variable script "/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,10 +56,6 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "conv2_weights_synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param synth.incrementalSynthesisCache ./.Xil/Vivado-1825485-leds-inspiron3020/incrSyn
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
@@ -69,17 +65,17 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.cache/wt [current_project]
-set_property parent.project_path /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.xpr [current_project]
+set_property webtalk.parent_dir /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.cache/wt [current_project]
+set_property parent.project_path /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part xilinx.com:zc702:part0:1.4 [current_project]
-set_property ip_output_repo /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.cache/ip [current_project]
+set_property ip_output_repo /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.srcs/sources_1/ip/conv2_weights/conv2_weights.xci
-set_property used_in_implementation false [get_files -all /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_ooc.xdc]
+read_ip -quiet /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.srcs/sources_1/ip/conv2_weights/conv2_weights.xci
+set_property used_in_implementation false [get_files -all /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -95,7 +91,7 @@ set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 OPTRACE "Configure IP Cache" START { }
 
-set cacheID [config_ip_cache -export -no_bom  -dir /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1 -new_name conv2_weights -ip [get_ips conv2_weights]]
+set cacheID [config_ip_cache -export -no_bom  -dir /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1 -new_name conv2_weights -ip [get_ips conv2_weights]]
 
 OPTRACE "Configure IP Cache" END { }
 if { $cacheID == "" } {
@@ -150,32 +146,32 @@ generate_parallel_reports -reports { "report_utilization -file conv2_weights_uti
 OPTRACE "synth reports" END { }
 
 if { [catch {
-  file copy -force /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights.dcp /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights.dcp
+  file copy -force /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights.dcp /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 status "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.v
+  write_verilog -force -mode synth_stub /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.vhdl
+  write_vhdl -force -mode synth_stub /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_sim_netlist.v
+  write_verilog -force -mode funcsim /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -185,32 +181,32 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights.dcp /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights.dcp
+  file copy -force /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights.dcp /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 status "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights_stub.v /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.v
+  file rename -force /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights_stub.v /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights_stub.vhdl /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.vhdl
+  file rename -force /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights_stub.vhdl /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights_sim_netlist.v /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_sim_netlist.v
+  file rename -force /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights_sim_netlist.v /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights_sim_netlist.vhdl /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_sim_netlist.vhdl
+  file rename -force /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_weights_synth_1/conv2_weights_sim_netlist.vhdl /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -218,15 +214,15 @@ if { [catch {
 close [open .end.used_ip_cache.rst w]
 }; # end if cacheID 
 
-if {[file isdir /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/ip/conv2_weights]} {
+if {[file isdir /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/ip/conv2_weights]} {
   catch { 
-    file copy -force /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.v /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/ip/conv2_weights
+    file copy -force /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.v /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/ip/conv2_weights
   }
 }
 
-if {[file isdir /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/ip/conv2_weights]} {
+if {[file isdir /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/ip/conv2_weights]} {
   catch { 
-    file copy -force /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.vhdl /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/ip/conv2_weights
+    file copy -force /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_stub.vhdl /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/ip/conv2_weights
   }
 }
 file delete __synthesis_is_running__

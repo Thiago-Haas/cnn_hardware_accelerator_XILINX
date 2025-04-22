@@ -2,10 +2,10 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
--- Date        : Tue Apr 22 15:21:07 2025
+-- Date        : Tue Apr 22 18:29:50 2025
 -- Host        : leds-inspiron3020 running 64-bit Ubuntu 24.04.2 LTS
 -- Command     : write_vhdl -force -mode synth_stub
---               /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv3_weights/conv3_weights_stub.vhdl
+--               /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv3_weights/conv3_weights_stub.vhdl
 -- Design      : conv3_weights
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg484-1
@@ -23,7 +23,7 @@ entity conv3_weights is
   attribute CHECK_LICENSE_TYPE : string;
   attribute CHECK_LICENSE_TYPE of conv3_weights : entity is "conv3_weights,dist_mem_gen_v8_0_15,{}";
   attribute core_generation_info : string;
-  attribute core_generation_info of conv3_weights : entity is "conv3_weights,dist_mem_gen_v8_0_15,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=dist_mem_gen,x_ipVersion=8.0,x_ipCoreRevision=15,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,C_FAMILY=zynq,C_ADDR_WIDTH=13,C_DEFAULT_DATA=0,C_DEPTH=8192,C_HAS_CLK=1,C_HAS_D=0,C_HAS_DPO=0,C_HAS_DPRA=0,C_HAS_I_CE=0,C_HAS_QDPO=0,C_HAS_QDPO_CE=0,C_HAS_QDPO_CLK=0,C_HAS_QDPO_RST=0,C_HAS_QDPO_SRST=0,C_HAS_QSPO=0,C_HAS_QSPO_CE=0,C_HAS_QSPO_RST=0,C_HAS_QSPO_SRST=0,C_HAS_SPO=1,C_HAS_WE=0,C_MEM_INIT_FILE=no_coe_file_loaded,C_ELABORATION_DIR=./,C_MEM_TYPE=0,C_PIPELINE_STAGES=0,C_QCE_JOINED=0,C_QUALIFY_WE=0,C_READ_MIF=0,C_REG_A_D_INPUTS=1,C_REG_DPRA_INPUT=0,C_SYNC_ENABLE=1,C_WIDTH=8,C_PARSER_TYPE=1}";
+  attribute core_generation_info of conv3_weights : entity is "conv3_weights,dist_mem_gen_v8_0_15,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=dist_mem_gen,x_ipVersion=8.0,x_ipCoreRevision=15,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,C_FAMILY=zynq,C_ADDR_WIDTH=13,C_DEFAULT_DATA=0,C_DEPTH=8192,C_HAS_CLK=1,C_HAS_D=0,C_HAS_DPO=0,C_HAS_DPRA=0,C_HAS_I_CE=0,C_HAS_QDPO=0,C_HAS_QDPO_CE=0,C_HAS_QDPO_CLK=0,C_HAS_QDPO_RST=0,C_HAS_QDPO_SRST=0,C_HAS_QSPO=0,C_HAS_QSPO_CE=0,C_HAS_QSPO_RST=0,C_HAS_QSPO_SRST=0,C_HAS_SPO=1,C_HAS_WE=0,C_MEM_INIT_FILE=conv3_weights.mif,C_ELABORATION_DIR=./,C_MEM_TYPE=0,C_PIPELINE_STAGES=0,C_QCE_JOINED=0,C_QUALIFY_WE=0,C_READ_MIF=1,C_REG_A_D_INPUTS=1,C_REG_DPRA_INPUT=0,C_SYNC_ENABLE=1,C_WIDTH=8,C_PARSER_TYPE=1}";
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of conv3_weights : entity is "yes";
 end conv3_weights;

@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="68" Path="/home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.xpr">
+<Project Product="Vivado" Version="7" Minor="68" Path="/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="03235e10a538414a9adf6200ff004cd3"/>
@@ -61,19 +61,19 @@
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="zc702"/>
-    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTXSimLaunchSim" Val="2"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="10"/>
-    <Option Name="WTModelSimExportSim" Val="10"/>
-    <Option Name="WTQuestaExportSim" Val="10"/>
+    <Option Name="WTXSimExportSim" Val="22"/>
+    <Option Name="WTModelSimExportSim" Val="22"/>
+    <Option Name="WTQuestaExportSim" Val="22"/>
     <Option Name="WTIesExportSim" Val="0"/>
-    <Option Name="WTVcsExportSim" Val="10"/>
-    <Option Name="WTRivieraExportSim" Val="10"/>
+    <Option Name="WTVcsExportSim" Val="22"/>
+    <Option Name="WTRivieraExportSim" Val="22"/>
     <Option Name="WTActivehdlExportSim" Val="0"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
@@ -92,32 +92,10 @@
   <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/ip/image_chanel_2/image_chanel_2.xci">
+      <File Path="$PGENDIR/sources_1/ip/convFC_bias/convFC_bias.dcp">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/image_chanel_1/image_chanel_1.xci">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/image_chanel_0/image_chanel_0.xci">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/convFC_bias/convFC_bias.xci">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PRUNDIR/convFC_weights_synth_1/convFC_weights.dcp">
@@ -222,193 +200,199 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/add1.vhd">
+      <File Path="$PPRDIR/../add1.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/add32.vhd">
+      <File Path="$PPRDIR/../add32.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/arvore_comparadores.vhd">
+      <File Path="$PPRDIR/../arvore_comparadores.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/arvore_soma_conv.vhd">
+      <File Path="$PPRDIR/../arvore_soma_conv.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/types_pkg.vhd">
+      <File Path="$PPRDIR/../types_pkg.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/conv1.vhd">
+      <File Path="$PPRDIR/../cnn_top.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/conv1_crt.vhd">
+      <File Path="$PPRDIR/../conv1.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/conv1_op.vhd">
+      <File Path="$PPRDIR/../conv1_crt.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/conv2.vhd">
+      <File Path="$PPRDIR/../conv1_op.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/conv3.vhd">
+      <File Path="$PPRDIR/../conv2.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/conv4.vhd">
+      <File Path="$PPRDIR/../conv3.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/counter.vhd">
+      <File Path="$PPRDIR/../conv4.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/demux_1x4.vhd">
+      <File Path="$PPRDIR/../counter.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/fc.vhd">
+      <File Path="$PPRDIR/../demux_1x4.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/fc_crt.vhd">
+      <File Path="$PPRDIR/../fc.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/fc_op.vhd">
+      <File Path="$PPRDIR/../fc_crt.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/generic_demultiplexer.vhd">
+      <File Path="$PPRDIR/../fc_op.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/generic_multiplexer.vhd">
+      <File Path="$PPRDIR/../generic_demultiplexer.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/io_buffer.vhd">
+      <File Path="$PPRDIR/../generic_multiplexer.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/max_pooling.vhd">
+      <File Path="$PPRDIR/../io_buffer.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/multiplicador_conv.vhd">
+      <File Path="$PPRDIR/../max_pooling.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/neuronio.vhd">
+      <File Path="$PPRDIR/../multiplicador_conv.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/nucleo_convolucional.vhd">
+      <File Path="$PPRDIR/../neuronio.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/one_hot_encoder.vhd">
+      <File Path="$PPRDIR/../nucleo_convolucional.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/pool1.vhd">
+      <File Path="$PPRDIR/../one_hot_encoder.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/pool1_crt.vhd">
+      <File Path="$PPRDIR/../pool1.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/pool1_op.vhd">
+      <File Path="$PPRDIR/../pool1_crt.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/rebuff1.vhd">
+      <File Path="$PPRDIR/../pool1_op.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/rebuffer_crt.vhd">
+      <File Path="$PPRDIR/../rebuff1.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/rebuffer_op.vhd">
+      <File Path="$PPRDIR/../rebuffer_crt.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/registrador.vhd">
+      <File Path="$PPRDIR/../rebuffer_op.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_top.vhd">
+      <File Path="$PPRDIR/../registrador.vhd">
+        <FileInfo SFType="VHDL2008">
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../cnn_top_tb.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -428,36 +412,35 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/image_chanel.vhd">
+      <File Path="$PPRDIR/../image_chanel.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/conv1_weights.vhd">
+      <File Path="$PPRDIR/../conv1_weights.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/conv1_bias.vhd">
+      <File Path="$PPRDIR/../conv1_bias.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/generic_ram.vhd">
+      <File Path="$PPRDIR/../generic_ram.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UserDisabled" Val="1"/>
-          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/db/mult_jb01.v">
+      <File Path="$PPRDIR/../db/mult_jb01.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -465,206 +448,199 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/add32_tb.vhd">
+      <File Path="$PPRDIR/../add32_tb.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/banco_de_registradores.vhd">
+      <File Path="$PPRDIR/../banco_de_registradores.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_top_tb.vhd">
+      <File Path="$PPRDIR/../conv1_tb.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/conv1_tb.vhd">
+      <File Path="$PPRDIR/../nucleo_convolucional_tb.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/nucleo_convolucional_tb.vhd">
+      <File Path="$PPRDIR/../rebuffer_tb.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/rebuffer_tb.vhd">
+      <File Path="$PPRDIR/../relu.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/relu.vhd">
-        <FileInfo SFType="VHDL2008">
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/input_img/A_input_chanel_R.mif">
+      <File Path="$PPRDIR/../input_img/A_input_chanel_R.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/fc_bias.mif">
+      <File Path="$PPRDIR/../weights_and_biases/fc_bias.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/fc.mif">
+      <File Path="$PPRDIR/../weights_and_biases/fc.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/mif_files/conv3_bias.mif">
+      <File Path="$PPRDIR/../weights_and_biases/mif_files/conv3_bias.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/mif_files/conv1.mif">
+      <File Path="$PPRDIR/../weights_and_biases/mif_files/conv1.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/mif_files/conv3.mif">
+      <File Path="$PPRDIR/../weights_and_biases/mif_files/conv3.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/conv4_bias.mif">
+      <File Path="$PPRDIR/../weights_and_biases/conv4_bias.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/mif_files/conv2.mif">
+      <File Path="$PPRDIR/../weights_and_biases/mif_files/conv2.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/conv1_bias.mif">
+      <File Path="$PPRDIR/../weights_and_biases/conv1_bias.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/mif_files/conv4_bias.mif">
+      <File Path="$PPRDIR/../weights_and_biases/mif_files/conv4_bias.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/conv4.mif">
+      <File Path="$PPRDIR/../weights_and_biases/conv4.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/conv3.mif">
+      <File Path="$PPRDIR/../weights_and_biases/conv3.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/conv2_bias.mif">
+      <File Path="$PPRDIR/../weights_and_biases/conv2_bias.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/input_img/A_input_chanel_G.mif">
+      <File Path="$PPRDIR/../input_img/A_input_chanel_G.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/conv2.mif">
+      <File Path="$PPRDIR/../weights_and_biases/conv2.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/input_img/Y_input_chanel_R.mif">
+      <File Path="$PPRDIR/../input_img/Y_input_chanel_R.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/mif_files/fc_bias.mif">
+      <File Path="$PPRDIR/../weights_and_biases/mif_files/fc_bias.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/conv3_bias.mif">
+      <File Path="$PPRDIR/../weights_and_biases/conv3_bias.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/input_img/Y_input_chanel_G.mif">
+      <File Path="$PPRDIR/../input_img/Y_input_chanel_G.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/conv1.mif">
+      <File Path="$PPRDIR/../weights_and_biases/conv1.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/mif_files/fc.mif">
+      <File Path="$PPRDIR/../weights_and_biases/mif_files/fc.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/mif_files/conv2_bias.mif">
+      <File Path="$PPRDIR/../weights_and_biases/mif_files/conv2_bias.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/mif_files/conv4.mif">
+      <File Path="$PPRDIR/../weights_and_biases/mif_files/conv4.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/input_img/A_input_chanel_B.mif">
+      <File Path="$PPRDIR/../input_img/A_input_chanel_B.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/weights_and_biases/mif_files/conv1_bias.mif">
+      <File Path="$PPRDIR/../weights_and_biases/mif_files/conv1_bias.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Documents/GitHub/cnn_hardware_accelerator_XILINX/input_img/Y_input_chanel_B.mif">
+      <File Path="$PPRDIR/../input_img/Y_input_chanel_B.mif">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1208,13 +1184,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PGENDIR/sources_1/ip/convFC_bias/convFC_bias.dcp">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-        </FileInfo>
-      </File>
       <File Path="$PGENDIR/sources_1/ip/generic_ram/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
@@ -1430,9 +1399,87 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PPRDIR/../input_img/A_input_chanel_R.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../input_img/A_input_chanel_G.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../input_img/A_input_chanel_B.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../weights_and_biases/conv1_bias.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../weights_and_biases/conv1.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../weights_and_biases/conv2_bias.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../weights_and_biases/conv2.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../weights_and_biases/conv3_bias.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../weights_and_biases/conv3.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../weights_and_biases/conv4_bias.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../weights_and_biases/conv4.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../weights_and_biases/fc_bias.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../weights_and_biases/fc.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="cnn_top"/>
+        <Option Name="TopModule" Val="cnn_top_tb"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -1442,6 +1489,7 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="mult_jb01"/>
@@ -1604,6 +1652,59 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
+    <FileSet Name="image_chanel_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/image_chanel_0" RelGenDir="$PGENDIR/image_chanel_0">
+      <File Path="$PSRCDIR/sources_1/ip/image_chanel_0/image_chanel_0.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="image_chanel_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="image_chanel_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/image_chanel_1" RelGenDir="$PGENDIR/image_chanel_1">
+      <File Path="$PSRCDIR/sources_1/ip/image_chanel_1/image_chanel_1.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="image_chanel_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="image_chanel_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/image_chanel_2" RelGenDir="$PGENDIR/image_chanel_2">
+      <File Path="$PSRCDIR/sources_1/ip/image_chanel_2/image_chanel_2.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="image_chanel_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="convFC_bias" Type="BlockSrcs" RelSrcDir="$PSRCDIR/convFC_bias" RelGenDir="$PGENDIR/convFC_bias">
+      <File Path="$PSRCDIR/sources_1/ip/convFC_bias/convFC_bias.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="convFC_bias"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
   </FileSets>
   <Simulators>
     <Simulator Name="XSim">
@@ -1629,9 +1730,7 @@
   <Runs Version="1" Minor="22">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
@@ -1640,9 +1739,7 @@
     </Run>
     <Run Id="conv1_bias_synth_1" Type="Ft3:Synth" SrcSet="conv1_bias" Part="xc7z020clg484-1" ConstrsSet="conv1_bias" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/conv1_bias_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv1_bias_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv1_bias_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1652,9 +1749,7 @@
     </Run>
     <Run Id="conv1_weights_synth_1" Type="Ft3:Synth" SrcSet="conv1_weights" Part="xc7z020clg484-1" ConstrsSet="conv1_weights" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/conv1_weights_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv1_weights_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv1_weights_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1664,9 +1759,7 @@
     </Run>
     <Run Id="generic_ram_synth_1" Type="Ft3:Synth" SrcSet="generic_ram" Part="xc7z020clg484-1" ConstrsSet="generic_ram" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/generic_ram_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/generic_ram_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/generic_ram_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1676,9 +1769,7 @@
     </Run>
     <Run Id="conv3_weights_synth_1" Type="Ft3:Synth" SrcSet="conv3_weights" Part="xc7z020clg484-1" ConstrsSet="conv3_weights" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/conv3_weights_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv3_weights_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv3_weights_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1688,9 +1779,7 @@
     </Run>
     <Run Id="conv4_weights_synth_1" Type="Ft3:Synth" SrcSet="conv4_weights" Part="xc7z020clg484-1" ConstrsSet="conv4_weights" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/conv4_weights_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv4_weights_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv4_weights_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1700,9 +1789,7 @@
     </Run>
     <Run Id="conv3_bias_synth_1" Type="Ft3:Synth" SrcSet="conv3_bias" Part="xc7z020clg484-1" ConstrsSet="conv3_bias" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/conv3_bias_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv3_bias_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv3_bias_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1712,9 +1799,7 @@
     </Run>
     <Run Id="conv4_bias_synth_1" Type="Ft3:Synth" SrcSet="conv4_bias" Part="xc7z020clg484-1" ConstrsSet="conv4_bias" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/conv4_bias_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv4_bias_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv4_bias_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1724,9 +1809,7 @@
     </Run>
     <Run Id="convFC_weights_synth_1" Type="Ft3:Synth" SrcSet="convFC_weights" Part="xc7z020clg484-1" ConstrsSet="convFC_weights" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/convFC_weights_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/convFC_weights_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/convFC_weights_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1735,6 +1818,26 @@
       <RQSFiles/>
     </Run>
     <Run Id="conv2_bias_synth_1" Type="Ft3:Synth" SrcSet="conv2_bias" Part="xc7z020clg484-1" ConstrsSet="conv2_bias" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/conv2_bias_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv2_bias_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv2_bias_synth_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="conv2_weights_synth_1" Type="Ft3:Synth" SrcSet="conv2_weights" Part="xc7z020clg484-1" ConstrsSet="conv2_weights" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/conv2_weights_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv2_weights_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv2_weights_synth_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="image_chanel_0_synth_1" Type="Ft3:Synth" SrcSet="image_chanel_0" Part="xc7z020clg484-1" ConstrsSet="image_chanel_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/image_chanel_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/image_chanel_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/image_chanel_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
           <Desc>Vivado Synthesis Defaults</Desc>
@@ -1746,7 +1849,31 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="conv2_weights_synth_1" Type="Ft3:Synth" SrcSet="conv2_weights" Part="xc7z020clg484-1" ConstrsSet="conv2_weights" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/conv2_weights_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv2_weights_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv2_weights_synth_1" ParallelReportGen="true">
+    <Run Id="image_chanel_1_synth_1" Type="Ft3:Synth" SrcSet="image_chanel_1" Part="xc7z020clg484-1" ConstrsSet="image_chanel_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/image_chanel_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/image_chanel_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/image_chanel_1_synth_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="image_chanel_2_synth_1" Type="Ft3:Synth" SrcSet="image_chanel_2" Part="xc7z020clg484-1" ConstrsSet="image_chanel_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/image_chanel_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/image_chanel_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/image_chanel_2_synth_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="convFC_bias_synth_1" Type="Ft3:Synth" SrcSet="convFC_bias" Part="xc7z020clg484-1" ConstrsSet="convFC_bias" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/convFC_bias_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/convFC_bias_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/convFC_bias_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
           <Desc>Vivado Synthesis Defaults</Desc>
@@ -1760,9 +1887,7 @@
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1779,9 +1904,7 @@
     </Run>
     <Run Id="conv1_bias_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="conv1_bias" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="conv1_bias_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv1_bias_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv1_bias_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1798,9 +1921,7 @@
     </Run>
     <Run Id="conv1_weights_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="conv1_weights" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="conv1_weights_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv1_weights_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv1_weights_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1817,9 +1938,7 @@
     </Run>
     <Run Id="generic_ram_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="generic_ram" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="generic_ram_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/generic_ram_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/generic_ram_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1836,9 +1955,7 @@
     </Run>
     <Run Id="conv3_weights_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="conv3_weights" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="conv3_weights_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv3_weights_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv3_weights_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1855,9 +1972,7 @@
     </Run>
     <Run Id="conv4_weights_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="conv4_weights" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="conv4_weights_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv4_weights_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv4_weights_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1874,9 +1989,7 @@
     </Run>
     <Run Id="conv3_bias_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="conv3_bias" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="conv3_bias_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv3_bias_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv3_bias_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1893,9 +2006,7 @@
     </Run>
     <Run Id="conv4_bias_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="conv4_bias" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="conv4_bias_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv4_bias_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv4_bias_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1912,9 +2023,7 @@
     </Run>
     <Run Id="convFC_weights_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="convFC_weights" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="convFC_weights_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/convFC_weights_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/convFC_weights_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1930,6 +2039,40 @@
       <RQSFiles/>
     </Run>
     <Run Id="conv2_bias_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="conv2_bias" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="conv2_bias_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv2_bias_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv2_bias_impl_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="conv2_weights_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="conv2_weights" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="conv2_weights_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv2_weights_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv2_weights_impl_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="image_chanel_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="image_chanel_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="image_chanel_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/image_chanel_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/image_chanel_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
           <Desc>Default settings for Implementation.</Desc>
@@ -1948,7 +2091,45 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="conv2_weights_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="conv2_weights" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="conv2_weights_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/conv2_weights_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/conv2_weights_impl_1" ParallelReportGen="true">
+    <Run Id="image_chanel_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="image_chanel_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="image_chanel_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/image_chanel_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/image_chanel_1_impl_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="image_chanel_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="image_chanel_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="image_chanel_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/image_chanel_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/image_chanel_2_impl_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="convFC_bias_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="convFC_bias" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="convFC_bias_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/convFC_bias_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/convFC_bias_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
           <Desc>Default settings for Implementation.</Desc>

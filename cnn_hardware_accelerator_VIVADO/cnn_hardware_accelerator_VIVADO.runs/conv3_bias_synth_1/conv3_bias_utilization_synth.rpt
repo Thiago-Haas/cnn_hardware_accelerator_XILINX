@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-| Date         : Tue Apr 22 15:32:45 2025
+| Date         : Tue Apr 22 18:22:13 2025
 | Host         : leds-inspiron3020 running 64-bit Ubuntu 24.04.2 LTS
 | Command      : report_utilization -file conv3_bias_utilization_synth.rpt -pb conv3_bias_utilization_synth.pb
 | Design       : conv3_bias
@@ -31,11 +31,11 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*             |    0 |     0 |          0 |     53200 |  0.00 |
-|   LUT as Logic          |    0 |     0 |          0 |     53200 |  0.00 |
+| Slice LUTs*             |   48 |     0 |          0 |     53200 |  0.09 |
+|   LUT as Logic          |   48 |     0 |          0 |     53200 |  0.09 |
 |   LUT as Memory         |    0 |     0 |          0 |     17400 |  0.00 |
-| Slice Registers         |    0 |     0 |          0 |    106400 |  0.00 |
-|   Register as Flip Flop |    0 |     0 |          0 |    106400 |  0.00 |
+| Slice Registers         |    7 |     0 |          0 |    106400 | <0.01 |
+|   Register as Flip Flop |    7 |     0 |          0 |    106400 | <0.01 |
 |   Register as Latch     |    0 |     0 |          0 |    106400 |  0.00 |
 | F7 Muxes                |    0 |     0 |          0 |     26600 |  0.00 |
 | F8 Muxes                |    0 |     0 |          0 |     13300 |  0.00 |
@@ -60,7 +60,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 0     |          Yes |       Reset |            - |
+| 7     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -148,6 +148,10 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
++----------+------+---------------------+
+| LUT6     |   32 |                 LUT |
+| LUT2     |   32 |                 LUT |
+| FDRE     |    7 |        Flop & Latch |
 +----------+------+---------------------+
 
 

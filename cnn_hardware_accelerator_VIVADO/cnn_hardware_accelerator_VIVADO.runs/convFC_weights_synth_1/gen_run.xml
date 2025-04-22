@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="convFC_weights_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1745348332">
+<GenRun Id="convFC_weights_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1745357869">
   <File Type="VDS-TIMINGSUMMARY" Name="convFC_weights_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="convFC_weights.dcp"/>
   <File Type="RDS-UTIL-PB" Name="convFC_weights_utilization_synth.pb"/>
   <File Type="RDS-UTIL" Name="convFC_weights_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="convFC_weights_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="convFC_weights.vds"/>
+  <File Type="REPORTS-TCL" Name="convFC_weights_reports.tcl"/>
   <File Type="VDS-TIMING-PB" Name="convFC_weights_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="convFC_weights.tcl"/>
-  <File Type="REPORTS-TCL" Name="convFC_weights_reports.tcl"/>
-  <File Type="RDS-RDS" Name="convFC_weights.vds"/>
-  <File Type="RDS-PROPCONSTRS" Name="convFC_weights_drc_synth.rpt"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/convFC_weights" RelGenDir="$PGENDIR/convFC_weights">
     <File Path="$PSRCDIR/sources_1/ip/convFC_weights/convFC_weights.xci">
       <FileInfo>
@@ -42,9 +42,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv1_weights_synth_1'
+HD_PWD='/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv1_weights_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
