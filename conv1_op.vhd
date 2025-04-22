@@ -247,11 +247,11 @@ architecture arch of conv1_op is
       DATA_WIDTH : integer := 8;
       DATA_DEPTH : integer := 10);
     port (
-      address : in std_logic_vector (DATA_DEPTH - 1 downto 0);
-      clock   : in std_logic := '1';
-      data    : in std_logic_vector (DATA_WIDTH - 1 downto 0);
-      wren    : in std_logic;
-      q       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+      a    : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+      clk  : in std_logic := '1';
+      d    : in std_logic_vector (DATA_WIDTH - 1 downto 0);
+      we   : in std_logic;
+      spo  : out std_logic_vector (DATA_WIDTH - 1 downto 0)
     );
   end component;
   -------------------------------   
@@ -576,15 +576,25 @@ begin
     );
   end generate GEN_FILTER_OUT;
   -- decodifica endereco de NC para habilitar escrita nos reg de deslocamento PESOS
-  u_OHE_PES : one_hot_encoder
+--  u_OHE_PES : one_hot_encoder
+--  generic map(
+--    DATA_WIDTH => NC_ADDRESS_WIDTH, -- bits para enderecamento NC
+--    OUT_WIDTH  => C
+--  ) -- numero de NC
+--  port map(
+--    i_DATA => i_WEIGHT_SHIFT_ADDR,
+--    o_DATA => w_NC_PES_ADDR
+--  );
+u_OHE_PES : one_hot_encoder
   generic map(
-    DATA_WIDTH => NC_ADDRESS_WIDTH, -- bits para enderecamento NC
-    OUT_WIDTH  => C
-  ) -- numero de NC
+    DATA_WIDTH => NC_ADDRESS_WIDTH,
+    OUT_WIDTH  => NC_OHE_WIDTH 
+  )
   port map(
     i_DATA => i_WEIGHT_SHIFT_ADDR,
     o_DATA => w_NC_PES_ADDR
   );
+
 
   -- decodifica endereco para escrita
   u_OHE_OUT_BUFF : one_hot_encoder

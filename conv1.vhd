@@ -32,7 +32,8 @@ entity conv1 is
     BIAS_OHE_WIDTH        : integer          := 12;
     WEIGHT_ADDRESS_WIDTH  : integer          := 10;
     BIAS_ADDRESS_WIDTH    : integer          := 6;
-    SCALE_SHIFT           : t_ARRAY_OF_INTEGER; -- (0 to  5) := (8, 8, 7, 8, 8, 9);
+    --SCALE_SHIFT           : t_ARRAY_OF_INTEGER; -- (0 to  5) := (8, 8, 7, 8, 8, 9);
+    SCALE_SHIFT : t_ARRAY_OF_INTEGER(0 to M - 1) := (8, 8, 7, 8, 8, 9);
     WEIGHT_FILE_NAME      : string  := "weights_and_biases/conv1.mif";
     BIAS_FILE_NAME        : string  := "weights_and_biases/conv1_bias.mif";
     OUT_SEL_WIDTH         : integer := 3; -- largura de bits para selecionar buffers de saida    
@@ -86,17 +87,31 @@ architecture arch of conv1 is
   -------------------------------
   -- ROM pesos
   -------------------------------
-  component conv1_weights is
+--  component conv1_weights is
+--    generic (
+--      init_file_name : string  := "conv1.mif";
+--      DATA_WIDTH     : integer := 8;
+--      DATA_DEPTH     : integer := 10
+--    );
+--    port (
+--      address : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+--      clock   : in std_logic := '1';
+--      rden    : in std_logic := '1';
+--      q       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+--    );
+--  end component;
+  
+ component conv1_weights is
     generic (
       init_file_name : string  := "conv1.mif";
       DATA_WIDTH     : integer := 8;
       DATA_DEPTH     : integer := 10
     );
     port (
-      address : in std_logic_vector (DATA_DEPTH - 1 downto 0);
-      clock   : in std_logic := '1';
-      rden    : in std_logic := '1';
-      q       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+      a : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+      clk   : in std_logic := '1';
+      --rden    : in std_logic := '1';
+      spo       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
     );
   end component;
   -------------------------------
@@ -104,6 +119,20 @@ architecture arch of conv1 is
   -------------------------------
   -- ROM bias e scale down multipliers
   -------------------------------
+--  component conv1_bias is
+--    generic (
+--      init_file_name : string  := "conv2_bias.mif";
+--      DATA_WIDTH     : integer := 32;
+--      DATA_DEPTH     : integer := 5
+--    );
+--    port (
+--      address : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+--      clken   : in std_logic := '1';
+--      clock   : in std_logic := '1';
+--      q       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+--    );
+--  end component;
+  
   component conv1_bias is
     generic (
       init_file_name : string  := "conv2_bias.mif";
@@ -111,10 +140,10 @@ architecture arch of conv1 is
       DATA_DEPTH     : integer := 5
     );
     port (
-      address : in std_logic_vector (DATA_DEPTH - 1 downto 0);
-      clken   : in std_logic := '1';
-      clock   : in std_logic := '1';
-      q       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+      a : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+      --clken   : in std_logic := '1';
+      clk   : in std_logic := '1';
+      spo       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
     );
   end component;
   -------------------------------
@@ -193,6 +222,7 @@ architecture arch of conv1 is
       ADDR_WIDTH           : integer := 10;
       OUT_SEL_WIDTH        : integer := 3;
       SCALE_SHIFT          : t_ARRAY_OF_INTEGER;
+      --SCALE_SHIFT : t_ARRAY_OF_INTEGER(0 to M-1) := (8, 8, 7, 8, 8, 9);
       USE_REGISTER         : integer := 0
     );
     port (
@@ -294,6 +324,19 @@ architecture arch of conv1 is
   ---------------------------------
 begin
   -- memoria rom de pesos
+--  u_ROM_WEIGHTS : conv1_weights
+--  generic map(
+--    init_file_name => WEIGHT_FILE_NAME,
+--    DATA_WIDTH     => 8,
+--    DATA_DEPTH     => WEIGHT_ADDRESS_WIDTH
+--  )
+--  port map(
+--    address => w_WEIGHT_READ_ADDR,
+--    clock   => i_CLK,
+--    rden    => w_WEIGHT_READ_ENA,
+--    q       => w_i_WEIGHT
+--  );
+  
   u_ROM_WEIGHTS : conv1_weights
   generic map(
     init_file_name => WEIGHT_FILE_NAME,
@@ -301,13 +344,26 @@ begin
     DATA_DEPTH     => WEIGHT_ADDRESS_WIDTH
   )
   port map(
-    address => w_WEIGHT_READ_ADDR,
-    clock   => i_CLK,
-    rden    => w_WEIGHT_READ_ENA,
-    q       => w_i_WEIGHT
+    a => w_WEIGHT_READ_ADDR,
+    clk   => i_CLK,
+    --rden    => w_WEIGHT_READ_ENA,
+    spo       => w_i_WEIGHT
   );
 
   -- memeoria rom de BIAS E SCALE
+--  u_ROM_BIAS : conv1_bias
+--  generic map(
+--    init_file_name => BIAS_FILE_NAME,
+--    DATA_WIDTH     => 32,
+--    DATA_DEPTH     => BIAS_ADDRESS_WIDTH
+--  )
+--  port map(
+--    address => w_BIAS_READ_ADDR,
+--    clken   => w_BIAS_READ_ENA,
+--    clock   => i_CLK,
+--    q       => w_BIAS
+--  );
+  
   u_ROM_BIAS : conv1_bias
   generic map(
     init_file_name => BIAS_FILE_NAME,
@@ -315,10 +371,10 @@ begin
     DATA_DEPTH     => BIAS_ADDRESS_WIDTH
   )
   port map(
-    address => w_BIAS_READ_ADDR,
-    clken   => w_BIAS_READ_ENA,
-    clock   => i_CLK,
-    q       => w_BIAS
+    a => w_BIAS_READ_ADDR,
+    --clken   => w_BIAS_READ_ENA,
+    clk   => i_CLK,
+    spo       => w_BIAS
   );
 
   u_CONTROLE : CONV1_CRT

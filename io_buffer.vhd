@@ -68,11 +68,11 @@ architecture arch of io_buffer is
       DATA_WIDTH : integer := 8;
       DATA_DEPTH : integer := 10);
     port (
-      address : in std_logic_vector (DATA_DEPTH - 1 downto 0);
-      clock   : in std_logic := '1';
-      data    : in std_logic_vector (DATA_WIDTH - 1 downto 0);
-      wren    : in std_logic;
-      q       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+      a : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+      clk   : in std_logic := '1';
+      d     : in std_logic_vector (DATA_WIDTH - 1 downto 0);
+      we    : in std_logic;
+      spo   : out std_logic_vector (DATA_WIDTH - 1 downto 0)
     );
   end component;
 
