@@ -207,6 +207,48 @@ architecture arch of cnn_top is
       o_OUT_DATA      : out t_ARRAY_OF_LOGIC_VECTOR(0 to M - 1)(DATA_WIDTH - 1 downto 0)
     );
   end component;
+  
+  --  bloco convolucional
+    component conv2 is
+      generic (
+        DATA_WIDTH            : integer;
+        ADDR_WIDTH            : integer;
+        H                     : integer;
+        W                     : integer;
+        C                     : integer;
+        R                     : integer;
+        S                     : integer;
+        M                     : integer;
+        NUM_WEIGHT_FILTER_CHA : std_logic_vector;
+        LAST_WEIGHT           : std_logic_vector;
+        LAST_BIAS             : std_logic_vector;
+        LAST_ROW              : std_logic_vector;
+        LAST_COL              : std_logic_vector;
+        NC_SEL_WIDTH          : integer;
+        NC_ADDRESS_WIDTH      : integer;
+        NC_OHE_WIDTH          : integer;
+        BIAS_OHE_WIDTH        : integer;
+        WEIGHT_ADDRESS_WIDTH  : integer;
+        BIAS_ADDRESS_WIDTH    : integer;
+        SCALE_SHIFT           : t_ARRAY_OF_INTEGER;
+        WEIGHT_FILE_NAME      : string;
+        BIAS_FILE_NAME        : string;
+        OUT_SEL_WIDTH         : integer;
+        USE_REGISTER          : integer := 0
+      );
+      port (
+        i_CLK           : in std_logic;
+        i_CLR           : in std_logic;
+        i_GO            : in std_logic;
+        o_READY         : out std_logic;
+        i_IN_DATA       : in t_ARRAY_OF_LOGIC_VECTOR(0 to C - 1)(DATA_WIDTH - 1 downto 0);
+        i_IN_WRITE_ENA  : in std_logic;
+        i_IN_SEL_LINE   : in std_logic_vector (1 downto 0);
+        i_IN_WRITE_ADDR : in std_logic_vector (ADDR_WIDTH - 1 downto 0);
+        i_OUT_READ_ADDR : in std_logic_vector (ADDR_WIDTH - 1 downto 0);
+        o_OUT_DATA      : out t_ARRAY_OF_LOGIC_VECTOR(0 to M - 1)(DATA_WIDTH - 1 downto 0)
+      );
+    end component;
 
     --  bloco convolucional
     component conv3 is
@@ -488,7 +530,7 @@ architecture arch of cnn_top is
 begin
 
   -- imagem de entrada
-  u_IMG_CHA_0 : image_chanel
+  u_IMG_CHA_0 : image_chanel_0
   generic map("input_img/A_input_chanel_R.mif")
   port map(
     a => w_IMG_READ_ADDR,
@@ -498,7 +540,7 @@ begin
   );
 
   -- imagem de entrada
-  u_IMG_CHA_1 : image_chanel
+  u_IMG_CHA_1 : image_chanel_1
   generic map("input_img/A_input_chanel_G.mif")
   port map(
     a => w_IMG_READ_ADDR,
@@ -507,7 +549,7 @@ begin
     spo       => w_REBUFF1_DATA_IN(1)
   );
   -- imagem de entrada
-  u_IMG_CHA_2 : image_chanel
+  u_IMG_CHA_2 : image_chanel_2
   generic map("input_img/A_input_chanel_B.mif")
   port map(
     a => w_IMG_READ_ADDR,
@@ -664,7 +706,7 @@ begin
   );
 
   -------------------------------------------------------
-  u_CONV2 : conv1
+  u_CONV2 : conv2
   generic map(
     DATA_WIDTH            => DATA_WIDTH,
     ADDR_WIDTH            => ADDR_WIDTH,

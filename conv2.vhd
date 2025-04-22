@@ -337,7 +337,7 @@ begin
 --    q       => w_i_WEIGHT
 --  );
   
-  u_ROM_WEIGHTS : conv1_weights
+  u_ROM_WEIGHTS : conv2_weights
   generic map(
     init_file_name => WEIGHT_FILE_NAME,
     DATA_WIDTH     => 8,
