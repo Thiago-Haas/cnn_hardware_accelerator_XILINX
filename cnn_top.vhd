@@ -121,7 +121,33 @@ architecture arch of cnn_top is
   constant FC_SCALE_SHIFT           : integer          := 7;
   --
   -- bloco rom para imagem de entrada  
-  component image_chanel is
+  component image_chanel_0 is
+    generic (
+      init_file_name : string := "input_chanel_1.mif"
+    );
+    port (
+      a : in std_logic_vector (9 downto 0);
+      clk   : in std_logic := '1';
+      --rden    : in std_logic := '1';
+      spo       : out std_logic_vector (7 downto 0)
+    );
+  end component;
+  
+    -- bloco rom para imagem de entrada  
+  component image_chanel_1 is
+    generic (
+      init_file_name : string := "input_chanel_1.mif"
+    );
+    port (
+      a : in std_logic_vector (9 downto 0);
+      clk   : in std_logic := '1';
+      --rden    : in std_logic := '1';
+      spo       : out std_logic_vector (7 downto 0)
+    );
+  end component;
+  
+    -- bloco rom para imagem de entrada  
+  component image_chanel_2 is
     generic (
       init_file_name : string := "input_chanel_1.mif"
     );
