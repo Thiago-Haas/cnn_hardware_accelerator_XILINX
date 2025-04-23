@@ -91,7 +91,8 @@ begin
     wait until w_READY = '1';
     -- if modelsim-project is created, then provide the relative path of 
     -- input-file (i.e. read_file_ex.txt) with respect to main project folder
-    file_open(input_buf, "fc_out.txt", read_mode);
+    --file_open(input_buf, "fc_out.txt", read_mode);
+    file_open(input_buf, "/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/fc_out.txt", read_mode);
     -- else provide the complete path for the input file as show below 
     -- file_open(input_buf, "E:/VHDLCodes/input_output_files/read_file_ex.txt", read_mode); 
     while not endfile(input_buf) loop
