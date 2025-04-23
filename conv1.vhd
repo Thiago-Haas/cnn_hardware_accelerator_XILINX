@@ -140,10 +140,10 @@ architecture arch of conv1 is
       --DATA_DEPTH     : integer := 5
     --);
     port (
-      a : in std_logic_vector (5 - 1 downto 0);
+      a : in std_logic_vector (5 downto 0);
       --clken   : in std_logic := '1';
       clk   : in std_logic := '1';
-      spo       : out std_logic_vector (32 - 1 downto 0)
+      spo       : out std_logic_vector (31 downto 0)
     );
   end component;
   -------------------------------

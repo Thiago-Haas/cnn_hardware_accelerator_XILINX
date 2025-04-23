@@ -133,16 +133,16 @@ architecture arch of fc is
 --  end component;
 
   component convFC_weights is
-    generic (
-      init_file_name : string  := "conv1.mif";
-      DATA_WIDTH     : integer := 8;
-      DATA_DEPTH     : integer := 10
-    );
+    --generic (
+    --  init_file_name : string  := "conv1.mif";
+     -- DATA_WIDTH     : integer := 8;
+    --  DATA_DEPTH     : integer := 10
+    --);
     port (
-      a : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+      a : in std_logic_vector (12 downto 0);
       clk   : in std_logic := '1';
       --rden    : in std_logic := '1';
-      spo       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+      spo       : out std_logic_vector (8 - 1 downto 0)
     );
   end component;
 --  component conv1_bias is
@@ -159,16 +159,16 @@ architecture arch of fc is
 --    );
 --  end component;
 component convFC_bias is
-    generic (
-      init_file_name : string  := "conv2_bias.mif";
-      DATA_WIDTH     : integer := 32;
-      DATA_DEPTH     : integer := 5
-    );
+    --generic (
+     -- init_file_name : string  := "conv2_bias.mif";
+    --  DATA_WIDTH     : integer := 32;
+    --  DATA_DEPTH     : integer := 5
+    --);
     port (
-      a : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+      a : in std_logic_vector (5 downto 0);
       --clken   : in std_logic := '1';
       clk   : in std_logic := '1';
-      spo       : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+      spo       : out std_logic_vector (32 - 1 downto 0)
     );
   end component;
   -------------------------------
@@ -204,11 +204,11 @@ begin
   
     -- memoria rom de pesos
   u_ROM_WEIGHTS : convFC_weights
-  generic map(
-    init_file_name => "weights_and_biases/fc.mif",
-    DATA_WIDTH     => 8,
-    DATA_DEPTH     => WEIGHT_ADDRESS_WIDTH
-  )
+  --generic map(
+  --  init_file_name => "weights_and_biases/fc.mif",
+  --  DATA_WIDTH     => 8,
+  --  DATA_DEPTH     => WEIGHT_ADDRESS_WIDTH
+  --)
   port map(
     a => w_WEIGHT_READ_ADDR,
     clk   => i_CLK,
@@ -218,11 +218,11 @@ begin
 
   -- memeoria rom de BIAS E SCALE
   u_ROM_BIAS : convFC_bias
-  generic map(
-    init_file_name => "weights_and_biases/fc_bias.mif",
-    DATA_WIDTH     => 32,
-    DATA_DEPTH     => BIAS_ADDRESS_WIDTH
-  )
+  --generic map(
+  --  init_file_name => "weights_and_biases/fc_bias.mif",
+  --  DATA_WIDTH     => 32,
+  --  DATA_DEPTH     => BIAS_ADDRESS_WIDTH
+  --)
   port map(
     a => w_BIAS_READ_ADDR,
     --clken   => '1',

@@ -64,15 +64,15 @@ architecture arch of io_buffer is
 
   -- memoria
   component generic_ram is
-    generic (
-      DATA_WIDTH : integer := 8;
-      DATA_DEPTH : integer := 10);
+    --generic (
+      --DATA_WIDTH : integer := 8;
+      --DATA_DEPTH : integer := 10);
     port (
-      a : in std_logic_vector (DATA_DEPTH - 1 downto 0);
+      a : in std_logic_vector (10 - 1 downto 0);
       clk   : in std_logic := '1';
-      d     : in std_logic_vector (DATA_WIDTH - 1 downto 0);
+      d     : in std_logic_vector (8 - 1 downto 0);
       we    : in std_logic;
-      spo   : out std_logic_vector (DATA_WIDTH - 1 downto 0)
+      spo   : out std_logic_vector (8 - 1 downto 0)
     );
   end component;
 
@@ -129,7 +129,7 @@ begin
     GEN_BLOCK :
     for i in 0 to NUM_BLOCKS - 1 generate
       ramx : generic_ram
-      generic map(DATA_WIDTH, ADDR_WIDTH)
+      --generic map(DATA_WIDTH, ADDR_WIDTH)
       port map(
         w_ADDRs(i),
         i_CLK,
