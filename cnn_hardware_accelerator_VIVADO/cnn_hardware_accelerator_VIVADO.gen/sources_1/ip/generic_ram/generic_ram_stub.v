@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-// Date        : Tue Apr 22 14:11:47 2025
+// Date        : Wed Apr 23 09:57:59 2025
 // Host        : leds-inspiron3020 running 64-bit Ubuntu 24.04.2 LTS
 // Command     : write_verilog -force -mode synth_stub
-//               /home/haas/Desktop/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/generic_ram/generic_ram_stub.v
+//               /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/generic_ram/generic_ram_stub.v
 // Design      : generic_ram
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg484-1

@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Tue Apr 22 18:19:08 2025
-# Process ID         : 1879990
+# Start of session at: Wed Apr 23 09:40:43 2025
+# Process ID         : 1985035
 # Current directory  : /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_bias_synth_1
 # Command line       : vivado -log conv2_bias.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source conv2_bias.tcl
 # Log file           : /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/conv2_bias_synth_1/conv2_bias.vds
@@ -13,12 +13,12 @@
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.2 LTS
 # Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13700
-# CPU Frequency      : 800.000 MHz
+# CPU Frequency      : 1979.062 MHz
 # CPU Physical cores : 16
 # CPU Logical cores  : 24
 # Host memory        : 16438 MB
 # Swap memory        : 17179 MB
 # Total Virtual      : 33618 MB
-# Available Virtual  : 21492 MB
+# Available Virtual  : 21398 MB
 #-----------------------------------------------------------
 source conv2_bias.tcl -notrace

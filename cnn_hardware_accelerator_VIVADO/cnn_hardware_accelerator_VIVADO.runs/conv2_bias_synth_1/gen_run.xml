@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="conv2_bias_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1745356747">
+<GenRun Id="conv2_bias_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1745412042">
   <File Type="VDS-TIMINGSUMMARY" Name="conv2_bias_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="conv2_bias.dcp"/>
   <File Type="RDS-UTIL-PB" Name="conv2_bias_utilization_synth.pb"/>

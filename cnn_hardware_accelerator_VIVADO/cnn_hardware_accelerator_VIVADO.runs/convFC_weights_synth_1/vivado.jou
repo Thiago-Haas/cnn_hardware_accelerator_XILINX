@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Tue Apr 22 18:37:51 2025
-# Process ID         : 1889244
+# Start of session at: Wed Apr 23 09:54:15 2025
+# Process ID         : 1994691
 # Current directory  : /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/convFC_weights_synth_1
 # Command line       : vivado -log convFC_weights.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source convFC_weights.tcl
 # Log file           : /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/convFC_weights_synth_1/convFC_weights.vds
@@ -13,12 +13,12 @@
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.2 LTS
 # Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13700
-# CPU Frequency      : 1024.608 MHz
+# CPU Frequency      : 3468.390 MHz
 # CPU Physical cores : 16
 # CPU Logical cores  : 24
 # Host memory        : 16438 MB
 # Swap memory        : 17179 MB
 # Total Virtual      : 33618 MB
-# Available Virtual  : 21390 MB
+# Available Virtual  : 21329 MB
 #-----------------------------------------------------------
 source convFC_weights.tcl -notrace

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="convFC_weights_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1745357869">
+<GenRun Id="convFC_weights_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1745412853">
   <File Type="VDS-TIMINGSUMMARY" Name="convFC_weights_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="convFC_weights.dcp"/>
   <File Type="RDS-UTIL-PB" Name="convFC_weights_utilization_synth.pb"/>
