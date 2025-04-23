@@ -1,4 +1,0 @@
-cnn_top_tb: conv3, conv1_op__parameterized5__GB2, conv1_op__parameterized5__GB1, reg__115_cnn_top_tb, conv1_op__parameterized5__GB0, cnn_top__GCB3, conv4__GC0, conv1_op__parameterized5__GB3, cnn_top__GCB1, cnn_top__GCB2, 
-cnn_top: cnn_top__GCB3, cnn_top__GCB2, cnn_top__GCB1, conv4__GC0, conv1_op__parameterized5__GB3, conv1_op__parameterized5__GB2, conv1_op__parameterized5__GB1, conv1_op__parameterized5__GB0, conv3, 
-conv4: conv4__GC0, conv1_op__parameterized5__GB3, conv1_op__parameterized5__GB2, conv1_op__parameterized5__GB1, conv1_op__parameterized5__GB0, 
-conv1_op__parameterized5: conv1_op__parameterized5__GB3, conv1_op__parameterized5__GB2, conv1_op__parameterized5__GB1, conv1_op__parameterized5__GB0, 

@@ -4163,3 +4163,485 @@ DSP Report: operator multOp is absorbed into DSP multOp.
 DSP Report: Generating DSP multOp, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multOp is absorbed into DSP multOp.
 DSP Report: operator multOp is absorbed into DSP multOp.
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 0. Recommended levels of pipeline registers is 4. [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/conv1_op.vhd:518]
+DSP Report: Generating DSP multOp, operation Mode is: A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP multOp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP multOp, operation Mode is: A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP multOp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+INFO: [Synth 8-3886] merging instance 'u_REBUFF_6/u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[16]' (FDC) to 'u_REBUFF7/u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[16]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_REBUFF7/u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[16] )
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 0. Recommended levels of pipeline registers is 4. [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/conv1_op.vhd:518]
+DSP Report: Generating DSP multOp, operation Mode is: A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP multOp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP multOp, operation Mode is: A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP multOp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 0. Recommended levels of pipeline registers is 4. [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/conv1_op.vhd:518]
+DSP Report: Generating DSP multOp, operation Mode is: A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP multOp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP multOp, operation Mode is: A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP multOp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_REBUFF_2/\u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_REBUFF_4/\u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[16] )
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[16]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[16]) is unused and will be removed from module rebuff1__parameterized1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:41 . Memory (MB): peak = 2339.523 ; gain = 521.914 ; free physical = 346 ; free virtual = 14690
+---------------------------------------------------------------------------------
+ Sort Area is conv1_op__parameterized5__GB2 multOp_0 : 0 0 : 3101 5879 : Used 1 time 0
+ Sort Area is cnn_top__GCB3 multOp_0 : 0 0 : 3101 5879 : Used 1 time 0
+ Sort Area is conv3 multOp_0 : 0 0 : 3101 5879 : Used 1 time 0
+ Sort Area is conv1_op__parameterized5__GB2 multOp_0 : 0 1 : 2778 5879 : Used 1 time 0
+ Sort Area is cnn_top__GCB3 multOp_0 : 0 1 : 2778 5879 : Used 1 time 0
+ Sort Area is conv3 multOp_0 : 0 1 : 2778 5879 : Used 1 time 0
+ Sort Area is cnn_top__GCB3 multOp_6 : 0 0 : 3101 5879 : Used 1 time 0
+ Sort Area is cnn_top__GCB3 multOp_6 : 0 1 : 2778 5879 : Used 1 time 0
+ Sort Area is conv1_op__parameterized5__GB2 multOp_3 : 0 0 : 2759 5418 : Used 1 time 0
+ Sort Area is cnn_top__GCB3 multOp_3 : 0 0 : 2759 5418 : Used 1 time 0
+ Sort Area is conv3 multOp_3 : 0 0 : 2759 5418 : Used 1 time 0
+ Sort Area is conv1_op__parameterized5__GB2 multOp_3 : 0 1 : 2659 5418 : Used 1 time 0
+ Sort Area is cnn_top__GCB3 multOp_3 : 0 1 : 2659 5418 : Used 1 time 0
+ Sort Area is conv3 multOp_3 : 0 1 : 2659 5418 : Used 1 time 0
+ Sort Area is cnn_top__GCB3 multOp_7 : 0 0 : 2759 5418 : Used 1 time 0
+ Sort Area is cnn_top__GCB3 multOp_7 : 0 1 : 2659 5418 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------------------------+--------------------------------------------------------------------------+-----------+----------------------+---------------+
+|Module Name                   | RTL Object                                                               | Inference | Size (Depth x Width) | Primitives    | 
++------------------------------+--------------------------------------------------------------------------+-----------+----------------------+---------------+
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[63].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[62].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[61].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[60].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[59].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[58].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[57].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[56].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[55].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[54].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[53].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[52].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[51].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[50].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[49].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[48].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[47].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[46].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[45].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[44].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[43].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[42].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[41].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[40].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[39].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[38].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[37].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[36].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[35].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[34].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[33].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[32].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[31].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[30].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[29].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[28].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[27].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[26].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[25].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[24].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[23].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[22].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[21].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[20].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[19].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[18].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[17].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[16].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[15].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[14].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[13].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[12].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[11].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[10].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0] | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[9].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0]  | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[8].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0]  | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[7].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0]  | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[6].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0]  | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[5].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0]  | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[4].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0]  | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[3].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0]  | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[2].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0]  | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[1].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0]  | Implied   | 4 x 8                | RAM16X1S x 8  | 
+|conv1_op__parameterized5__GB3 | GEN_FILTER_OUT[0].OUT_BUFFER/GEN_REG.GEN_BLOCK[0].r_REGISTERS_reg[0][0]  | Implied   | 4 x 8                | RAM16X1S x 8  | 
++------------------------------+--------------------------------------------------------------------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|cnn_top_tb  | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cnn_top_tb  | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cnn_top_tb  | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cnn_top_tb  | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv1_op    | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 2483.570 ; gain = 665.961 ; free physical = 311 ; free virtual = 14353
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[15]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[14]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[13]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[12]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[11]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[10]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[9]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[8]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[7]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[6]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[5]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[4]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[3]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[2]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[1]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[0]) is unused and will be removed from module rebuff1__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[20]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[19]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[18]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[17]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[16]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[15]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[14]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[13]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[12]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[11]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[10]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[9]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[8]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[7]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[6]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[5]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[4]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[3]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[2]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[1]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[0]) is unused and will be removed from module conv2.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[16]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[15]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[14]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[13]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[12]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[11]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[10]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[9]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[8]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[7]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[6]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[5]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[4]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[3]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[2]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[1]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[0]) is unused and will be removed from module rebuff1__parameterized3.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[7]) is unused and will be removed from module pool1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[6]) is unused and will be removed from module pool1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[5]) is unused and will be removed from module pool1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[4]) is unused and will be removed from module pool1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[3]) is unused and will be removed from module pool1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[2]) is unused and will be removed from module pool1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[1]) is unused and will be removed from module pool1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[0]) is unused and will be removed from module pool1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[15]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[14]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[13]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[12]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[11]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[10]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[9]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[8]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[7]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[6]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[5]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[4]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[3]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[2]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[1]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_REBUFFER_CRT/FSM_onehot_r_STATE_reg[0]) is unused and will be removed from module rebuff1__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[20]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[19]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[18]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[17]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[16]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[15]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[14]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[13]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[12]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[11]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[10]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[9]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[8]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[7]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[6]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[5]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[4]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[3]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[2]) is unused and will be removed from module conv1.
+WARNING: [Synth 8-3332] Sequential element (u_CONTROLE/FSM_onehot_r_STATE_reg[1]) is unused and will be removed from module conv1.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 2492.570 ; gain = 674.961 ; free physical = 295 ; free virtual = 14336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 2512.496 ; gain = 694.887 ; free physical = 369 ; free virtual = 13453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[0].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__89 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[0].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__89 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[0].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__89 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[1].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__90 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[1].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__90 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[1].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__90 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[2].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__91 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[2].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__91 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[2].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__91 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[3].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__92 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[3].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__92 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[3].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__92 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[4].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__93 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[4].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__93 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[4].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__93 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[5].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__94 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[5].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__94 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[5].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__94 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[6].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__95 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[6].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__95 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[6].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__95 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[7].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__96 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[7].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__96 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[7].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__96 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[8].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__97 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[8].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__97 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[8].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__97 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[9].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__98 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[9].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__98 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[9].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__98 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[10].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__99 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[10].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__99 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[10].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__99 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[11].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__100 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[11].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__100 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[11].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__100 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[12].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__101 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[12].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__101 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[12].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__101 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[13].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__102 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[13].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__102 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[13].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__102 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[14].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__103 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[14].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__103 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[14].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__103 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[15].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__104 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[15].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__104 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_CHANNELS[15].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__104 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[0].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__108 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[1].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__109 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[2].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__110 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[3].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__111 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[4].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__112 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[5].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__113 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[6].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__114 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[7].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__115 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[8].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__116 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[9].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__117 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[10].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__118 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[11].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__119 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[12].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__120 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[13].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__121 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[14].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__122 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[15].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__123 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[16].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__124 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[17].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__125 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[18].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__126 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[19].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__127 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[20].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__128 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[21].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__129 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[22].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__130 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[23].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__131 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[24].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__132 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[25].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__133 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[26].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__134 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[27].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__135 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[28].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__136 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[29].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__137 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[30].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__138 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_OPERACIONAL/GEN_FILTER_OUT[31].OUT_BUFFER/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_9__139 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_ROM_WEIGHTS  of module conv3_weights_bbox_15 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV3/u_ROM_BIAS  of module conv3_bias_bbox_16 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[6].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__57 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[6].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__57 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[6].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__57 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[7].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__58 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[7].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__58 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[7].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__58 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[8].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__59 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[8].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__59 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[8].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__59 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[9].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__60 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[9].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__60 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[9].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__60 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[15].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__61 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[15].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__61 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[15].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__61 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[16].IO_BUFFERS/GEN_MK10.GEN_BLOCK[0].ramx  of module generic_ram_bbox_6__62 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[16].IO_BUFFERS/GEN_MK10.GEN_BLOCK[1].ramx  of module generic_ram_bbox_7__62 having unconnected or no output ports
+INFO: [Synth 8-4649] Removing BlackBox instance \u_DUT/u_CONV4/u_OPERACIONAL/GEN_CHANNELS[16].IO_BUFFERS/GEN_MK10.GEN_BLOCK[2].ramx  of module generic_ram_bbox_8__62 having unconnected or no output ports
+INFO: [Common 17-14] Message 'Synth 8-4649' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 2589.395 ; gain = 771.785 ; free physical = 422 ; free virtual = 13381
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 2589.395 ; gain = 771.785 ; free physical = 422 ; free virtual = 13381
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 2589.395 ; gain = 771.785 ; free physical = 421 ; free virtual = 13380
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 2589.395 ; gain = 771.785 ; free physical = 421 ; free virtual = 13380
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 2589.395 ; gain = 771.785 ; free physical = 421 ; free virtual = 13380
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 2589.395 ; gain = 771.785 ; free physical = 415 ; free virtual = 13374
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |image_chanel_0 |         1|
+|2     |image_chanel_1 |         1|
+|3     |image_chanel_2 |         1|
+|4     |conv2_weights  |         1|
+|5     |conv2_bias     |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+--------------------+------+
+|      |Cell                |Count |
++------+--------------------+------+
+|1     |conv2_bias_bbox     |     1|
+|2     |conv2_weights_bbox  |     1|
+|3     |image_chanel_0_bbox |     1|
+|4     |image_chanel_1_bbox |     1|
+|5     |image_chanel_2_bbox |     1|
++------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 2589.395 ; gain = 771.785 ; free physical = 403 ; free virtual = 13362
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 139 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 2593.309 ; gain = 668.234 ; free physical = 5424 ; free virtual = 18383
+Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 2593.309 ; gain = 775.699 ; free physical = 5420 ; free virtual = 18373
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2593.309 ; gain = 0.000 ; free physical = 5421 ; free virtual = 18374
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2593.309 ; gain = 0.000 ; free physical = 5435 ; free virtual = 18388
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 3c2f33e6
+INFO: [Common 17-83] Releasing license: Synthesis
+449 Infos, 191 Warnings, 9 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:01:01 . Memory (MB): peak = 2593.309 ; gain = 1199.906 ; free physical = 5435 ; free virtual = 18387
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 6011.502; main = 1676.796; forked = 4655.597
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 12377.301; main = 2589.398; forked = 10041.691
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint '/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.runs/synth_1/cnn_top_tb.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file cnn_top_tb_utilization_synth.rpt -pb cnn_top_tb_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 23 10:03:17 2025...
