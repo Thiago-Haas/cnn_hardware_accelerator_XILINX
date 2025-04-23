@@ -122,9 +122,9 @@ architecture arch of cnn_top is
   --
   -- bloco rom para imagem de entrada  
   component image_chanel_0 is
-    generic (
-      init_file_name : string := "input_chanel_1.mif"
-    );
+    --generic (
+    --  init_file_name : string := "input_chanel_1.mif"
+    --);
     port (
       a : in std_logic_vector (9 downto 0);
       clk   : in std_logic := '1';
@@ -135,9 +135,9 @@ architecture arch of cnn_top is
   
     -- bloco rom para imagem de entrada  
   component image_chanel_1 is
-    generic (
-      init_file_name : string := "input_chanel_1.mif"
-    );
+    --generic (
+    --  init_file_name : string := "input_chanel_1.mif"
+    --);
     port (
       a : in std_logic_vector (9 downto 0);
       clk   : in std_logic := '1';
@@ -148,9 +148,9 @@ architecture arch of cnn_top is
   
     -- bloco rom para imagem de entrada  
   component image_chanel_2 is
-    generic (
-      init_file_name : string := "input_chanel_1.mif"
-    );
+    --generic (
+    --  init_file_name : string := "input_chanel_1.mif"
+    --);
     port (
       a : in std_logic_vector (9 downto 0);
       clk   : in std_logic := '1';
@@ -557,7 +557,7 @@ begin
 
   -- imagem de entrada
   u_IMG_CHA_0 : image_chanel_0
-  generic map("input_img/A_input_chanel_R.mif")
+  --generic map("input_img/A_input_chanel_R.mif")
   port map(
     a => w_IMG_READ_ADDR,
     clk   => i_CLK,
@@ -567,7 +567,7 @@ begin
 
   -- imagem de entrada
   u_IMG_CHA_1 : image_chanel_1
-  generic map("input_img/A_input_chanel_G.mif")
+  --generic map("input_img/A_input_chanel_G.mif")
   port map(
     a => w_IMG_READ_ADDR,
     clk   => i_CLK,
@@ -576,7 +576,7 @@ begin
   );
   -- imagem de entrada
   u_IMG_CHA_2 : image_chanel_2
-  generic map("input_img/A_input_chanel_B.mif")
+  --generic map("input_img/A_input_chanel_B.mif")
   port map(
     a => w_IMG_READ_ADDR,
     clk   => i_CLK,
