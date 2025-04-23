@@ -2,5 +2,6 @@
 2020.2
 Nov  8 2024
 22:36:55
-/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_bias/conv1_bias_sim_netlist.v,1745356621,verilog,,/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_bias/conv1_bias_stub.v,,conv1_bias_dist_mem_gen_v8_0_15;conv1_bias_dist_mem_gen_v8_0_15_synth;conv1_bias_rom;glbl,,,,,,,,
+/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_bias/conv1_bias_stub.v,1745356621,verilog,,,,conv1_bias,,,,,,,,
 /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/db/mult_jb01.v,1744735037,verilog,,,,mult_jb01,,,,,,,,

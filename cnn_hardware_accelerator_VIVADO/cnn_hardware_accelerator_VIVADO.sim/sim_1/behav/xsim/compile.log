@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_bias/conv1_bias_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv1_bias
+INFO: [VRFC 10-311] analyzing module conv1_bias_dist_mem_gen_v8_0_15
+INFO: [VRFC 10-311] analyzing module conv1_bias_dist_mem_gen_v8_0_15_synth
+INFO: [VRFC 10-311] analyzing module conv1_bias_rom
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_bias/conv1_bias_stub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv1_bias
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'conv1_bias' [/home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_bias/conv1_bias_stub.v:19]
