@@ -1,79 +1,233 @@
 === MIF to COE Conversion Log ===
 
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/A_input_chanel_B.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/A_input_chanel_B.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/fc_bias.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/fc_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/fc.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/fc.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/Y_input_chanel_G.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/Y_input_chanel_G.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv3.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv3.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv4.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv4.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv2_bias.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv2_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/A_input_chanel_R.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/A_input_chanel_R.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv2.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv2.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv4_bias.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv4_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv1.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv1.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv3_bias.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv3_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/Y_input_chanel_B.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/Y_input_chanel_B.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv1_bias.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/conv1_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/A_input_chanel_G.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/A_input_chanel_G.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/Y_input_chanel_R.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.sim/sim_1/behav/xsim/Y_input_chanel_R.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/A_input_chanel_B.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/A_input_chanel_B.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/fc_bias.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/fc_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/fc.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/fc.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/Y_input_chanel_G.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/Y_input_chanel_G.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv3.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv3.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv4.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv4.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv2_bias.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv2_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/A_input_chanel_R.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/A_input_chanel_R.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv2.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv2.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv4_bias.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv4_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv1.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv1.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv3_bias.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv3_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/Y_input_chanel_B.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/Y_input_chanel_B.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv1_bias.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/conv1_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/A_input_chanel_G.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/A_input_chanel_G.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
+Original: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/Y_input_chanel_R.mif
+Converted: ./cnn_hardware_accelerator_VIVADO/cnn_hardware_accelerator_VIVADO.ip_user_files/mem_init_files/Y_input_chanel_R.coe
+Radix used: 2 (from DATA_RADIX=binary)
+
 Original: ./input_img/A_input_chanel_B.mif
 Converted: ./input_img/A_input_chanel_B.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./input_img/Y_input_chanel_G.mif
 Converted: ./input_img/Y_input_chanel_G.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./input_img/A_input_chanel_R.mif
 Converted: ./input_img/A_input_chanel_R.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./input_img/Y_input_chanel_B.mif
 Converted: ./input_img/Y_input_chanel_B.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./input_img/A_input_chanel_G.mif
 Converted: ./input_img/A_input_chanel_G.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./input_img/Y_input_chanel_R.mif
 Converted: ./input_img/Y_input_chanel_R.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/fc_bias.mif
 Converted: ./weights_and_biases/fc_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/fc.mif
 Converted: ./weights_and_biases/fc.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/conv3.mif
 Converted: ./weights_and_biases/conv3.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/conv4.mif
 Converted: ./weights_and_biases/conv4.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/conv2_bias.mif
 Converted: ./weights_and_biases/conv2_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/conv2.mif
 Converted: ./weights_and_biases/conv2.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/conv4_bias.mif
 Converted: ./weights_and_biases/conv4_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/conv1.mif
 Converted: ./weights_and_biases/conv1.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/conv3_bias.mif
 Converted: ./weights_and_biases/conv3_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/conv1_bias.mif
 Converted: ./weights_and_biases/conv1_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/mif_files/fc_bias.mif
 Converted: ./weights_and_biases/mif_files/fc_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/mif_files/fc.mif
 Converted: ./weights_and_biases/mif_files/fc.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/mif_files/conv3.mif
 Converted: ./weights_and_biases/mif_files/conv3.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/mif_files/conv4.mif
 Converted: ./weights_and_biases/mif_files/conv4.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/mif_files/conv2_bias.mif
 Converted: ./weights_and_biases/mif_files/conv2_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/mif_files/conv2.mif
 Converted: ./weights_and_biases/mif_files/conv2.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/mif_files/conv4_bias.mif
 Converted: ./weights_and_biases/mif_files/conv4_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/mif_files/conv1.mif
 Converted: ./weights_and_biases/mif_files/conv1.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/mif_files/conv3_bias.mif
 Converted: ./weights_and_biases/mif_files/conv3_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
 
 Original: ./weights_and_biases/mif_files/conv1_bias.mif
 Converted: ./weights_and_biases/mif_files/conv1_bias.coe
+Radix used: 2 (from DATA_RADIX=binary)
