@@ -1,0 +1,55 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/convFC_bias/convFC_bias_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/convFC_weights/convFC_weights_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/generic_ram/generic_ram_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv4_bias/conv4_bias_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv4_weights/conv4_weights_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv3_bias/conv3_bias_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv3_weights/conv3_weights_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_bias/conv2_bias_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv2_weights/conv2_weights_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_bias/conv1_bias_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/conv1_weights/conv1_weights_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel_2/image_chanel_2_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel_1/image_chanel_1_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/image_chanel_0/image_chanel_0_sim_netlist.vhdl" \
+"../../../../cnn_hardware_accelerator_VIVADO.gen/sources_1/ip/generic_ram/generic_ram_stub.vhdl" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../../add1.vhd" \
+"../../../../../add32.vhd" \
+"../../../../../arvore_comparadores.vhd" \
+"../../../../../arvore_soma_conv.vhd" \
+"../../../../../types_pkg.vhd" \
+"../../../../../cnn_top.vhd" \
+"../../../../../conv1.vhd" \
+"../../../../../conv1_crt.vhd" \
+"../../../../../conv1_op.vhd" \
+"../../../../../conv2.vhd" \
+"../../../../../conv3.vhd" \
+"../../../../../conv4.vhd" \
+"../../../../../counter.vhd" \
+"../../../../../demux_1x4.vhd" \
+"../../../../../fc.vhd" \
+"../../../../../fc_crt.vhd" \
+"../../../../../fc_op.vhd" \
+"../../../../../generic_demultiplexer.vhd" \
+"../../../../../generic_multiplexer.vhd" \
+"../../../../../io_buffer.vhd" \
+"../../../../../max_pooling.vhd" \
+"../../../../../multiplicador_conv.vhd" \
+"../../../../../neuronio.vhd" \
+"../../../../../nucleo_convolucional.vhd" \
+"../../../../../one_hot_encoder.vhd" \
+"../../../../../pool1.vhd" \
+"../../../../../pool1_crt.vhd" \
+"../../../../../pool1_op.vhd" \
+"../../../../../rebuff1.vhd" \
+"../../../../../rebuffer_crt.vhd" \
+"../../../../../rebuffer_op.vhd" \
+"../../../../../registrador.vhd" \
+"../../../../../cnn_top_tb.vhd" \
+
+# Do not sort compile order
+nosort

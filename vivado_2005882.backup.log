@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Apr 23 10:23:13 2025
+# Process ID         : 2005882
+# Current directory  : /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX
+# Command line       : vivado -mode batch -source sim.tcl
+# Log file           : /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/vivado.log
+# Journal file       : /home/haas/Documents/GitHub/cnn_hardware_accelerator_XILINX/vivado.jou
+# Running On         : leds-inspiron3020
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13700
+# CPU Frequency      : 802.891 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 24
+# Host memory        : 16438 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33618 MB
+# Available Virtual  : 19778 MB
+#-----------------------------------------------------------
+source sim.tcl
+# file delete -force xsim.dir
+# file delete -force work
+# file delete -force cnn_top_tb.wdb
+# file delete -force cnn_top_tb_behav.wdb
+# file delete -force cnn_top_tb.log
+# file delete -force cnn_top_tb.pb
+# exec mkdir -p work
+# source compile.tcl
+## xvhdl -2008 types_pkg.vhd
+WARNING: [Common 17-259] Unknown Tcl command 'xvhdl -2008 types_pkg.vhd' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+invalid command name "xvhdl"
+    while executing
+"xvhdl -2008 types_pkg.vhd"
+    (file "compile.tcl" line 2)
+
+    while executing
+"source compile.tcl"
+    (file "sim.tcl" line 13)
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 23 10:23:14 2025...
